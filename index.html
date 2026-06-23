@@ -671,9 +671,9 @@
           </div>
           <div class="konto-panel active" id="panel-iban">
             <div class="iban-box">
-              <div class="iban-row"><span class="iban-label">Empfänger</span><span class="iban-val">Initiative Hofladen-Schutz</span></div>
-              <div class="iban-row"><span class="iban-label">IBAN</span><span class="iban-val" id="ibanVal">CH56 0483 5012 3456 7800 9</span><button class="copy-btn" onclick="copyIban()">Kopieren</button></div>
-              <div class="iban-row"><span class="iban-label">Bank</span><span class="iban-val">Raiffeisenbank Mittelland</span></div>
+              <div class="iban-row"><span class="iban-label">Empfänger</span><span class="iban-val">Streule Jonas Raphael</span></div>
+              <div class="iban-row"><span class="iban-label">IBAN</span><span class="iban-val" id="ibanVal">CH21 0690 0057 0583 1020 2</span><button class="copy-btn" onclick="copyIban()">Kopieren</button></div>
+              <div class="iban-row"><span class="iban-label">Bank</span><span class="iban-val">acrevis Bank AG</span></div>
               <div class="iban-row"><span class="iban-label">Vermerk</span><span class="iban-val">Hofladen-Schutzgesetz</span></div>
             </div>
           </div>
@@ -683,8 +683,8 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h2v2h-2zM16 16h2v2h-2zM14 18h2v2h-2z"/></svg>
                 QR-Code folgt
               </div>
-              <div class="twint-nr">079 000 00 00</div>
-              <div class="twint-sub">Twint-Nummer des Initiativkomitees<br><small style="color:#aaa">(Platzhalter – wird nach Registrierung aktualisiert)</small></div>
+              <a href="https://go.twint.ch/1/e/tw?tw=acq.xKtMCbnlRdWsVekO9yfujf8clUUYnQVx8AGqSjnuMmN-fqTW6zNmjBlGP7ojLShq." class="wa-join-btn" target="_blank" style="display:inline-block;margin:0 auto 0.75rem;">💸 Jetzt mit Twint spenden</a>
+              <div class="twint-sub">Sicher und direkt per Twint bezahlen</div>
             </div>
           </div>
         </div>
@@ -1031,7 +1031,7 @@ function switchTab(id, btn) {
   document.getElementById('panel-'+id).classList.add('active');
 }
 function copyIban() {
-  navigator.clipboard.writeText('CH56 0483 5012 3456 7800 9').then(() => showToast('📋 IBAN kopiert!'));
+  navigator.clipboard.writeText('CH21 0690 0057 0583 1020 2').then(() => showToast('📋 IBAN kopiert!'));
 }
 
 // ── TEILEN ─────────────────────────────────────────────────────
