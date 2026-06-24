@@ -13,6 +13,7 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
+            set -e
             cd /srv/jonasstreule/repo
             git pull origin main
             cd api && docker compose -f docker-compose.prod.yml up -d --build
