@@ -21,7 +21,9 @@
     --fontscale: 1;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; font-size: calc(100% * var(--fontscale)); }
+  html { scroll-behavior: smooth; font-size: calc(100% * var(--fontscale)); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  html { overflow-x: hidden; }
+  body { overflow-x: hidden; }
   body { font-family: 'Inter', sans-serif; background: var(--creme); color: var(--text); line-height: 1.65; }
 
   /* ── BOOMER-MODUS / BARRIEREFREI ───────────────────────────── */
@@ -145,7 +147,7 @@
     content:''; position:absolute; inset:0;
     background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
-  .hero-inner { max-width:900px; margin:0 auto; position:relative; }
+  .hero-inner { max-width:900px; width:100%; min-width:0; margin:0 auto; position:relative; }
   .hero-eyebrow {
     display:inline-flex; align-items:center; gap:0.6rem;
     background:rgba(201,168,76,0.15); border:1px solid rgba(201,168,76,0.3);
@@ -166,6 +168,7 @@
     max-width:520px;
   }
   .wa-hero-banner svg { width:28px; height:28px; fill:#25D366; flex-shrink:0; }
+  .wa-hero-banner div { min-width:0; }
   .wa-hero-banner div p { font-size:0.75rem; color:rgba(255,255,255,0.5); margin-bottom:0.2rem; text-transform:uppercase; letter-spacing:0.06em; }
   .wa-hero-banner div strong { color:var(--weiss); font-size:0.95rem; }
   .wa-hero-banner a { margin-left:auto; background:var(--wa-gruen); color:var(--weiss); padding:0.5rem 1rem; border-radius:2px; font-size:0.82rem; font-weight:700; text-decoration:none; white-space:nowrap; flex-shrink:0; }
@@ -245,6 +248,7 @@
   .testi-text { font-size:1rem; color:var(--text); line-height:1.7; font-style:italic; margin:1.5rem 0 1.25rem; position:relative; z-index:1; }
   .testi-person { display:flex; align-items:center; gap:0.9rem; border-top:1px solid #eee5d5; padding-top:1rem; }
   .testi-avatar { width:48px; height:48px; border-radius:50%; background:var(--gruen); color:var(--weiss); display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-weight:700; font-size:1.1rem; flex-shrink:0; }
+  .testi-meta { min-width:0; }
   .testi-meta h4 { font-size:0.95rem; font-weight:600; color:var(--text); }
   .testi-meta p { font-size:0.82rem; color:var(--text-soft); }
 
@@ -258,6 +262,7 @@
   .parl-card:hover { box-shadow:0 4px 16px rgba(0,0,0,0.07); }
   .parl-header { display:flex; align-items:flex-start; gap:1rem; }
   .parl-avatar { width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:'Playfair Display',serif; font-size:1.3rem; font-weight:700; color:var(--weiss); flex-shrink:0; }
+  .parl-info { min-width:0; }
   .parl-info h4 { font-size:1rem; font-weight:600; color:var(--text); margin-bottom:0.2rem; }
   .parl-info p { font-size:0.82rem; color:var(--text-soft); }
   .status-badge { display:inline-flex; align-items:center; gap:0.4rem; padding:0.3rem 0.75rem; border-radius:2px; font-size:0.78rem; font-weight:600; width:fit-content; }
@@ -283,7 +288,7 @@
   .vip-card p { color:rgba(255,255,255,0.5); font-size:0.8rem; }
   .vip-badge { display:inline-block; background:var(--gold); color:var(--gruen); font-size:0.68rem; font-weight:800; letter-spacing:0.08em; text-transform:uppercase; padding:0.2rem 0.6rem; border-radius:2px; margin-bottom:0.75rem; }
   .vip-cta { margin-top:2.5rem; background:rgba(201,168,76,0.15); border:1px solid rgba(201,168,76,0.3); border-radius:4px; padding:2rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1.5rem; }
-  .vip-cta p { color:rgba(255,255,255,0.8); font-size:1.05rem; max-width:500px; }
+  .vip-cta p { color:rgba(255,255,255,0.8); font-size:1.05rem; max-width:500px; min-width:0; }
   .vip-cta p strong { color:var(--gold); }
 
   /* PETITION */
@@ -394,6 +399,7 @@
   .kom-card .kom-ort { color:rgba(255,255,255,0.5); font-size:0.78rem; }
   .transparenz-box { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.5rem; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.12); border-radius:4px; padding:2rem; }
   .trans-item { display:flex; gap:1rem; align-items:flex-start; }
+  .trans-item > div { min-width:0; }
   .trans-icon { font-size:1.8rem; flex-shrink:0; }
   .trans-item h4 { color:var(--weiss); font-size:0.95rem; font-weight:600; margin-bottom:0.35rem; }
   .trans-item p { color:rgba(255,255,255,0.6); font-size:0.85rem; line-height:1.55; }
@@ -960,6 +966,7 @@ async function ladeKantonsratsdaten() {
     }));
     renderParl(currentFilter, currentWahlkreisFilter);
     populateWahlkreisFilter();
+    document.getElementById('counterParl').textContent = parlamentarier.filter(p => p.status === 'ja').length;
   } catch (e) {
     console.error('Kantonsratsdaten konnten nicht geladen werden', e);
   }
@@ -971,7 +978,21 @@ async function ladeKantonsratsdaten() {
   }
 }
 
-const vips = [];
+const API_BASE = '/api/hofladen-schutz';
+
+let vips = [];
+
+async function ladeVips() {
+  try {
+    const res = await fetch(`${API_BASE}/vip`);
+    if (!res.ok) return;
+    vips = await res.json();
+    renderVip();
+    document.getElementById('counterVip').textContent = vips.length;
+  } catch (e) {
+    console.error('VIPs konnten nicht geladen werden', e);
+  }
+}
 
 const medien = [];
 
@@ -1111,7 +1132,7 @@ function findMyKantonsraete() {
     <div class="parl-grid">${treffer.map(p => parlCardHtml(p)).join('')}</div>
   </div>
   <div class="finder-consent-box">
-    <p>📲 Möchten Sie künftig Updates zur Initiative erhalten (z.B. per SMS/WhatsApp)? Hinterlassen Sie optional Ihre Telefonnummer – wir senden Ihnen eine E-Mail-Vorlage, die Sie nur noch abschicken müssen.</p>
+    <p>📲 Möchten Sie künftig Updates zur Initiative erhalten (z.B. per SMS/WhatsApp)? Hinterlassen Sie optional Ihre Telefonnummer.</p>
     <input class="petition-input" style="border:1px solid #d0c9bc;color:var(--text);" type="tel" id="finderTel" placeholder="Telefonnummer (optional)">
     <div class="petition-checkbox" style="margin-top:0.5rem;">
       <input type="checkbox" id="finderConsent">
@@ -1122,15 +1143,21 @@ function findMyKantonsraete() {
   results.innerHTML = html;
 }
 
-function submitFinderConsent(plz) {
-  const tel = document.getElementById('finderTel').value.trim();
+async function submitFinderConsent(plz) {
+  const telefon = document.getElementById('finderTel').value.trim();
   const consent = document.getElementById('finderConsent').checked;
-  if (!tel) { showToast('❌ Bitte Telefonnummer eingeben.'); return; }
+  if (!telefon) { showToast('❌ Bitte Telefonnummer eingeben.'); return; }
   if (!consent) { showToast('❌ Bitte der Nutzung zustimmen.'); return; }
-  const subject = encodeURIComponent('Update-Anfrage Betriebsschutzgesetz');
-  const body = encodeURIComponent(`PLZ: ${plz}\nTelefonnummer: ${tel}\nEinverständnis Updates per SMS/WhatsApp: Ja\n\n(Bitte diese E-Mail einfach abschicken)`);
-  window.location.href = `mailto:jonas.streule@gmail.com?subject=${subject}&body=${body}`;
-  showToast('📧 E-Mail-Vorlage wird geöffnet – bitte abschicken, damit wir Ihre Angaben erhalten.');
+  try {
+    const res = await fetch(`${API_BASE}/finder-lead`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ plz, telefon, consent }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    showToast('📲 Danke! Wir melden uns mit Updates zur Initiative.');
+  } catch (e) {
+    showToast('❌ Konnte nicht übermittelt werden. Bitte später erneut versuchen.');
+  }
 }
 
 function openKontakt(name) {
@@ -1148,10 +1175,9 @@ function renderVip() {
   document.getElementById('vipEmpty').style.display = vips.length ? 'none' : 'block';
   document.getElementById('vipGrid').innerHTML = vips.map(v => `
     <div class="vip-card">
-      <span class="vip-badge">${v.badge}</span>
-      <div class="vip-icon">${v.icon}</div>
+      <div class="vip-icon">⭐</div>
       <h4>${v.name}</h4>
-      <p>${v.funktion}</p>
+      <p>${v.funktion}${v.organisation ? ' · '+v.organisation : ''}</p>
       ${v.zitat ? `<p style="color:rgba(255,255,255,0.65);font-size:0.8rem;font-style:italic;margin-top:0.75rem">"${v.zitat}"</p>` : ''}
     </div>`).join('');
 }
@@ -1161,25 +1187,49 @@ function renderSigners() {
   document.getElementById('signerPills').innerHTML = petitionSigners.map(s => `<span class="signer-pill">✓ ${s}</span>`).join('');
 }
 
-function signPetition() {
+function updatePetitionCount(count) {
+  const cur = parseInt(document.getElementById('counterUnterschriften').textContent.replace(/[^0-9]/g,'')) || 0;
+  document.getElementById('petitionCount').textContent = count.toLocaleString('de-CH');
+  const pct = Math.min((count/5000)*100,100);
+  document.getElementById('petitionFill').style.width = pct+'%';
+  animateCounter('counterUnterschriften', cur, count);
+}
+
+async function ladePetitionStatus() {
+  try {
+    const res = await fetch(`${API_BASE}/petition`);
+    if (!res.ok) return;
+    const data = await res.json();
+    updatePetitionCount(data.count);
+    petitionSigners = data.recentSigners;
+    renderSigners();
+  } catch (e) {
+    console.error('Petitionsstand konnte nicht geladen werden', e);
+  }
+}
+
+async function signPetition() {
   const name = document.getElementById('petitionName').value.trim();
   const ort = document.getElementById('petitionOrt').value.trim();
+  const email = document.getElementById('petitionEmail').value.trim();
   if (!name || !ort) { showToast('❌ Bitte Name und Wohnort angeben.'); return; }
-  const pub = document.getElementById('petitionPublic').checked;
-  const current = parseInt(document.getElementById('petitionCount').textContent.replace(/[^0-9]/g,''));
-  const next = current + 1;
-  document.getElementById('petitionCount').textContent = next.toLocaleString('de-CH');
-  const pct = Math.min((next/5000)*100,100);
-  document.getElementById('petitionFill').style.width = pct+'%';
-  if (pub) {
-    const pill = `${name.split(' ')[0][0]}. ${name.split(' ').slice(-1)[0]} · ${ort}`;
-    petitionSigners = [pill, ...petitionSigners.slice(0,7)];
-    renderSigners();
+  const isPublic = document.getElementById('petitionPublic').checked;
+  try {
+    const res = await fetch(`${API_BASE}/petition`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, ort, email: email || undefined, isPublic }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    const data = await res.json();
+    updatePetitionCount(data.count);
+    if (isPublic) await ladePetitionStatus();
+    showToast(`✍ Danke, ${name.split(' ')[0]}! Ihre Unterschrift wurde registriert.`);
+    document.getElementById('petitionName').value = '';
+    document.getElementById('petitionOrt').value = '';
+    document.getElementById('petitionEmail').value = '';
+  } catch (e) {
+    showToast('❌ Unterschrift konnte nicht übermittelt werden. Bitte später erneut versuchen.');
   }
-  showToast(`✍ Danke, ${name.split(' ')[0]}! Ihre Unterschrift wurde registriert.`);
-  document.getElementById('petitionName').value = '';
-  document.getElementById('petitionOrt').value = '';
-  document.getElementById('petitionEmail').value = '';
 }
 
 // ── FAQ ────────────────────────────────────────────────────────
@@ -1217,18 +1267,43 @@ function selectBetrag(val, btn) {
   else { cg.style.display='none'; selectedBetrag=val; }
 }
 
-function handleSpende() {
+function updateSpendenTotals(total, donors) {
+  const cur = parseInt(document.getElementById('totalAmount').textContent.replace(/[^0-9]/g,'')) || 0;
+  document.getElementById('totalAmount').textContent = 'CHF '+total.toLocaleString('de-CH');
+  document.getElementById('numDonors').textContent = donors;
+  animateCounter('counterSpenden', cur, total);
+}
+
+async function ladeSpendenStatus() {
+  try {
+    const res = await fetch(`${API_BASE}/spende`);
+    if (!res.ok) return;
+    const data = await res.json();
+    updateSpendenTotals(data.total, data.donors);
+  } catch (e) {
+    console.error('Spendenstand konnte nicht geladen werden', e);
+  }
+}
+
+async function handleSpende() {
   const name = document.getElementById('spendenName').value.trim();
   const email = document.getElementById('spendenEmail').value.trim();
+  const visibility = document.getElementById('spendenVisibility').value;
   const betrag = selectedBetrag || parseInt(document.getElementById('customBetrag')?.value)||0;
   if (!name||!email) { showToast('❌ Bitte Name und E-Mail ausfüllen.'); return; }
   if (!betrag||betrag<5) { showToast('❌ Mindestbetrag: CHF 5'); return; }
-  showToast(`🌿 Herzlichen Dank, ${name.split(' ')[0]}! CHF ${betrag} erfasst.`);
-  const cur = parseInt(document.getElementById('totalAmount').textContent.replace(/[^0-9]/g,''));
-  const nxt = cur + betrag;
-  document.getElementById('totalAmount').textContent = 'CHF '+nxt.toLocaleString('de-CH');
-  document.getElementById('numDonors').textContent = parseInt(document.getElementById('numDonors').textContent)+1;
-  animateCounter('counterSpenden', cur, nxt);
+  try {
+    const res = await fetch(`${API_BASE}/spende`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, betrag, visibility }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    const data = await res.json();
+    updateSpendenTotals(data.total, data.donors);
+    showToast(`🌿 Herzlichen Dank, ${name.split(' ')[0]}! CHF ${betrag} erfasst.`);
+  } catch (e) {
+    showToast('❌ Spende konnte nicht erfasst werden. Bitte später erneut versuchen.');
+  }
 }
 
 // ── MODALS ─────────────────────────────────────────────────────
@@ -1236,18 +1311,43 @@ function openModal(id) { document.getElementById(id).classList.add('open'); }
 function closeModal(id) { document.getElementById(id).classList.remove('open'); }
 document.querySelectorAll('.modal-overlay').forEach(m => m.addEventListener('click', e => { if(e.target===m) m.classList.remove('open'); }));
 
-function sendKontakt() {
-  const name = document.getElementById('kontakt-name').value.trim();
-  if (!name) { showToast('❌ Bitte Ihren Namen angeben.'); return; }
-  showToast(`✉ Nachricht an ${currentParlForContact?.name} gesendet!`);
-  closeModal('kontakt-modal');
+async function sendKontakt() {
+  const senderName = document.getElementById('kontakt-name').value.trim();
+  const senderEmail = document.getElementById('kontakt-email').value.trim();
+  const message = document.getElementById('kontakt-msg').value.trim();
+  if (!senderName || !senderEmail) { showToast('❌ Bitte Name und E-Mail angeben.'); return; }
+  try {
+    const res = await fetch(`${API_BASE}/contact`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        targetName: currentParlForContact?.name, targetEmail: currentParlForContact?.email,
+        senderName, senderEmail, message,
+      }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    showToast(`✉ Nachricht an ${currentParlForContact?.name} gesendet!`);
+    closeModal('kontakt-modal');
+  } catch (e) {
+    showToast('❌ Nachricht konnte nicht gesendet werden. Bitte später erneut versuchen.');
+  }
 }
-function registerVip() {
+async function registerVip() {
   const name = document.getElementById('vip-name').value.trim();
   const fn = document.getElementById('vip-funktion').value.trim();
+  const organisation = document.getElementById('vip-org').value.trim();
+  const zitat = document.getElementById('vip-zitat').value.trim();
   if (!name||!fn) { showToast('❌ Name und Funktion erforderlich.'); return; }
-  showToast(`⭐ ${name} als VIP eingetragen. Wir melden uns!`);
-  closeModal('vip-modal');
+  try {
+    const res = await fetch(`${API_BASE}/vip`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, funktion: fn, organisation: organisation || undefined, zitat: zitat || undefined }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    showToast(`⭐ ${name} als VIP eingetragen. Wir melden uns!`);
+    closeModal('vip-modal');
+  } catch (e) {
+    showToast('❌ Anmeldung fehlgeschlagen. Bitte später erneut versuchen.');
+  }
 }
 
 // ── TOAST ──────────────────────────────────────────────────────
@@ -1304,11 +1404,20 @@ function renderKomitee() {
 }
 
 // ── NEWSLETTER ─────────────────────────────────────────────────
-function subscribeNews() {
+async function subscribeNews() {
   const email = document.getElementById('newsEmail').value.trim();
   if (!email || !email.includes('@')) { showToast('❌ Bitte gültige E-Mail eingeben.'); return; }
-  showToast('📬 Vielen Dank! Sie sind für den Newsletter angemeldet.');
-  document.getElementById('newsEmail').value = '';
+  try {
+    const res = await fetch(`${API_BASE}/newsletter`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    showToast('📬 Vielen Dank! Sie sind für den Newsletter angemeldet.');
+    document.getElementById('newsEmail').value = '';
+  } catch (e) {
+    showToast('❌ Anmeldung fehlgeschlagen. Bitte später erneut versuchen.');
+  }
 }
 
 // ── ACCESSIBILITY: SCHRIFTGRÖSSE & BOOMER-MODUS ────────────────
@@ -1335,6 +1444,9 @@ renderVip();
 renderSigners();
 renderFaq();
 ladeKantonsratsdaten();
+ladePetitionStatus();
+ladeSpendenStatus();
+ladeVips();
 
 document.getElementById('progressFill').style.width = '8%';
 </script>
