@@ -1,0 +1,2386 @@
+[
+  {
+    "name": "Andrea Abderhalden-Hämmerli",
+    "partei": "FDP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Nesslau",
+    "beruf": "Schulratspräsidentin und Unternehmerin",
+    "email": "andrea.abderhalden@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Schweizerische Gesellschaft für Parlamentsfragen (SGP)",
+      "Landwirtschaftlicher Klub",
+      "Bildungsgruppe",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Internationale Parlamentarische Bodensee-Konferenz (IPBK) 2024/2028",
+      "Präsidium des Kantonsrates (Kantonsratspräsidentin)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/898",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Cornel Aerne",
+    "partei": "Die Mitte",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Eschenbach",
+    "beruf": "Gemeindepräsident",
+    "email": "cornel.aerne@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Staatswirtschaftliche Kommission",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/899",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Alexandra Akeret",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Gewerkschaftssekretärin SEV",
+    "email": "alexandra.akeret@sev-online.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Kultur",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/900",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Helen Alder Frey",
+    "partei": "Die Mitte",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Juristin, Stadträtin",
+    "email": "helen.alder@stadtgossau.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Rechtspflegekommission",
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/901",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Evelyne Angehrn",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Rechtsanwältin",
+    "email": "angehrn@anwaelte44.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Frauengesundheit Ü50",
+      "Bildungsgruppe",
+      "Interessengruppe Natur und Umwelt",
+      "Rechtspflegekommission",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/902",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christoph Bärlocher",
+    "partei": "Die Mitte",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Eggersriet",
+    "beruf": "Bauunternehmer",
+    "email": "cb@baerlocher-bau.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "FC Kantonsrat",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/903",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Alexander Bartl",
+    "partei": "FDP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Widnau",
+    "beruf": "Rechtsanwalt, Steuerexperte",
+    "email": "bartl@bartl-egli.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Sport",
+      "Rechtspflegekommission",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/904",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Margot Benz",
+    "partei": "GRÜNE",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Rechtsanwältin",
+    "email": null,
+    "telefon": null,
+    "website": null,
+    "kommissionen": [],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/905",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Andreas Bisig",
+    "partei": "GLP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Abteilungsleiter",
+    "email": "andreas.bisig@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Rechtspflegekommission",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Sport",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/906",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Cornel Blöchlinger",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Eschenbach",
+    "beruf": "Unternehmer",
+    "email": "info@cornel-bloechlinger.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/907",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Daniel Bosshard",
+    "partei": "GRÜNE",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Umweltnaturwissenschaftler ETH",
+    "email": "daniel.bosshard@gruene-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Interessengruppe Sport (Mitglied der Kerngruppe)",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Natur und Umwelt",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/908",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Andreas Broger",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Direktionsschadeninspektor HM Komplexschaden",
+    "email": "andreas.broger@altstaetten.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Kultur",
+      "FC Kantonsrat",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/909",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "René Bühler",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Schmerikon",
+    "beruf": "Betriebsleiter",
+    "email": "renebuehler.schmerikon@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Sport",
+      "Rechtspflegekommission",
+      "Interessengruppe Alter (Präsident)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/910",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Cécile Casado-Schneider",
+    "partei": "SP",
+    "wahlkreis": "Wil",
+    "wohnort": "Flawil",
+    "beruf": "Leiterin Fachstelle Sonderpädagogik, Schulische Heilpädagogin",
+    "email": "c.casado@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur",
+      "Interessengruppe Natur und Umwelt",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/911",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Franziska Cavelti Häller",
+    "partei": "GLP",
+    "wahlkreis": "Wil",
+    "wohnort": "Jonschwil",
+    "beruf": "Unternehmerin",
+    "email": "franziska.cavelti@cavelti.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Finanzkommission",
+      "Interessengruppe Natur und Umwelt",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/912",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Bruno Cozzio",
+    "partei": "Die Mitte",
+    "wahlkreis": "Wil",
+    "wohnort": "Uzwil",
+    "beruf": "Revierförster",
+    "email": null,
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/913",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Trudy Cozzio",
+    "partei": "Die Mitte",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Heilpädagogin",
+    "email": "mail@trudycozzio.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Sport",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Alter",
+      "Bildungsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Kultur"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/914",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ernst Dobler",
+    "partei": "Die Mitte",
+    "wahlkreis": "Wil",
+    "wohnort": "Oberuzwil",
+    "beruf": "Unternehmer",
+    "email": "ernst.dobler@elektro-dobler.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/915",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Bruno Dudli",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Oberbüren",
+    "beruf": "Transportversicherer",
+    "email": "info@brunodudli.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Alter",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Kultur",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "FC Kantonsrat",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/916",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Barbara Dürr",
+    "partei": "Die Mitte",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Gams",
+    "beruf": "Bäuerin",
+    "email": "barbara.duerr@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interkantonale Legislativkonferenz (ILK)",
+      "Landwirtschaftlicher Klub",
+      "Ethikgruppe",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Alter",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/917",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Patrick Dürr",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Widnau",
+    "beruf": "Vizedirektor",
+    "email": "patrick.duerr@catv.rol.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Haus- und Grundeigentum (Präsident)",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/918",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Philipp Egger",
+    "partei": "Die Mitte",
+    "wahlkreis": "Wil",
+    "wohnort": "Jonschwil",
+    "beruf": "Gemeindepräsident",
+    "email": "philipp.egger@jonschwil.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Sport",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/919",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Dominik Egli",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Techniker HF Lebensmitteltechnologie",
+    "email": "dominik.egli@stadtwil.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Parlamentarische Gruppe Sicherheit",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/920",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ursula Egli-Seliner",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Dipl. Wirtschaftsfachfrau, Bäuerin, Coachin OA",
+    "email": "uegli@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Frühe Kindheit",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Alter",
+      "Interessengruppe Musik und Gesang",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Präsidium des Kantonsrates (Erste Stimmenzählerin)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/921",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Thomas Eugster",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Automatiker",
+    "email": "eule@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Bildungsgruppe",
+      "Rechtspflegekommission"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/922",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Marc Flückiger",
+    "partei": "FDP",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Geschäftsführer, Mitinhaber",
+    "email": "flueckiger.marc@outlook.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Sicherheit",
+      "Wirtschaftsgruppe",
+      "FC Kantonsrat",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/923",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Raphael Frei",
+    "partei": "FDP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Rorschacherberg",
+    "beruf": "Rektor und Unternehmer",
+    "email": "r.frei@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Präsidium des Kantonsrates (Fraktionspräsident)",
+      "Finanzkommission",
+      "FC Kantonsrat",
+      "Wirtschaftsgruppe",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Sport",
+      "Bildungsgruppe",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/924",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christian Freund",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Eichberg",
+    "beruf": "Landwirt mit eidg. Fachausweis",
+    "email": "christian.freund@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe",
+      "Staatswirtschaftliche Kommission"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/925",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Walter Freund",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Eichberg",
+    "beruf": "Meisterlandwirt",
+    "email": "freund.walter@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Kultur",
+      "Interessengruppe Wald und Holz (Präsident)",
+      "Interessengruppe Skirennen"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/926",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Pascal Frommenwiler",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Niederbüren",
+    "beruf": "Polizist",
+    "email": "pascal.frommenwiler@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Sport",
+      "Bildungsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/927",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Hedy Fürer-Ulrich",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Bäuerin",
+    "email": "hedy.fuerer@hispeed.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/928",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Peter Gabathuler",
+    "partei": "SVP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Grabs",
+    "beruf": "Unternehmer",
+    "email": "petergabathuler8@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/929",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Marco Gadient",
+    "partei": "SVP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Flums",
+    "beruf": "Landwirt",
+    "email": "marco.gadient@brunaline.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/930",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Jasmin Gähler",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Rechtsanwältin",
+    "email": "jasmin.gaehler@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/931",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Damian Gahlinger",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Niederhelfenschwil",
+    "beruf": "Maurer",
+    "email": "gahlinger.gbg@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "FC Kantonsrat",
+      "Ethikgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/932",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Dominik Gemperli",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Goldach",
+    "beruf": "Gemeindepräsident",
+    "email": "dominik.gemperli@goldach.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Staatswirtschaftliche Kommission (Präsident)",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Kultur",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/933",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Mirco Gerig",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Mosnang",
+    "beruf": "Kaufmännischer Leiter Bau",
+    "email": "post@mirco-gerig.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Landwirtschaftlicher Klub"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/934",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Adrian Gmür",
+    "partei": "Die Mitte",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Bütschwil-Ganterschwil",
+    "beruf": "Rechtsanwalt",
+    "email": "adrian.gmuer@anwaelte-wil.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "FC Kantonsrat",
+      "Rechtspflegekommission (Präsident)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/935",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Daniel Grünenfelder",
+    "partei": "Die Mitte",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Bad Ragaz",
+    "beruf": "Unternehmer",
+    "email": "daniel.gruenenfelder@trampena.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Wald und Holz",
+      "Parlamentarische Gruppe Sicherheit",
+      "Wirtschaftsgruppe",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/936",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Meinrad Gschwend",
+    "partei": "GRÜNE",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "freier Journalist",
+    "email": "gschwend.meinrad@rsnweb.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Kultur",
+      "Interessengruppe Wald und Holz",
+      "Ethikgruppe",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/937",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Gallus Hälg",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Treuhänder",
+    "email": "gallus.haelg@tb-h.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission (Präsident)",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/939",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Karin Hasler",
+    "partei": "SP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Balgach",
+    "beruf": "Wissenschaftscoach, Politologin",
+    "email": "karin.hasler@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Begleitgruppe RIS",
+      "Interessengruppe Kultur",
+      "Interessengruppe Sport",
+      "Interessengruppe Frühe Kindheit",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Wald und Holz",
+      "Bildungsgruppe",
+      "Ethikgruppe",
+      "Interessengruppe Natur und Umwelt"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/940",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Bernhard Hauser",
+    "partei": "GLP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Sargans",
+    "beruf": "Prof. PHSG i.R., Schulratspräsident",
+    "email": "bernhard.hauser@schulesargans.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frühe Kindheit",
+      "Bildungsgruppe",
+      "Interessengruppe Natur und Umwelt"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/941",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Susann Helbling",
+    "partei": "SP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Kindergartenlehrperson und Ergotherapeutin",
+    "email": "susann.helbling@sprj.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Frühe Kindheit",
+      "Bildungsgruppe (Präsidentin)",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Alter",
+      "Interessengruppe Sport (Mitglied der Kerngruppe)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/942",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Marco Helfenberger",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Waldkirch",
+    "beruf": "Projektleiter, Landwirt",
+    "email": "marco.helfenberger@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Bildungsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/943",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Heinz Herzog",
+    "partei": "EDU",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Thal",
+    "beruf": "Landwirt",
+    "email": "heinzherzog@icloud.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Wald und Holz",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/944",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sandro Hess",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Rebstein",
+    "beruf": "Lehrperson Oberstufe / Berufsfachschule",
+    "email": "sandro.hess@gmx.net",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Wirtschaftsgruppe",
+      "Internationale Parlamentarische Bodensee-Konferenz (IPBK) 2024/2028",
+      "Staatswirtschaftliche Kommission",
+      "Parlamentarische Gruppe Sicherheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Alter",
+      "Interessengruppe Musik und Gesang",
+      "Begleitgruppe RIS",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Sport",
+      "Ethikgruppe",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/945",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Martin Hochreutener",
+    "partei": "SVP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Goldach",
+    "beruf": "Unternehmer",
+    "email": "m.hochreutener@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/946",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Lukas Huber",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Wildhaus-Alt St.Johann",
+    "beruf": "Jurist",
+    "email": "mail@lukashuber.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Redaktionskommission (Ersatzmitglied)",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/947",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Rolf Huber",
+    "partei": "FDP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Oberriet",
+    "beruf": "Gemeindepräsident",
+    "email": "rolf.huber@oberriet.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport",
+      "Parlamentarische Gruppe Sicherheit",
+      "Begleitgruppe RIS",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr",
+      "Interessengruppe Wald und Holz",
+      "Landwirtschaftlicher Klub",
+      "Ethikgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/948",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Peter Hüppi",
+    "partei": "SP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Gommiswald",
+    "beruf": "Gemeindepräsident",
+    "email": "peter.hueppi@gommiswald.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Natur und Umwelt",
+      "Ethikgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/949",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Jens Jäger",
+    "partei": "FDP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Bad Ragaz",
+    "beruf": "Gemeindepräsident",
+    "email": "jens.jaeger@badragaz.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Bildungsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Sport (Präsident)",
+      "Ethikgruppe",
+      "FC Kantonsrat (Präsident)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Skirennen"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/950",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Peter Jans",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Stadtrat",
+    "email": "mail@peterjans.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Natur und Umwelt",
+      "Ethikgruppe",
+      "Interessengruppe Alter",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/951",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Kurt Kälin",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Chief Procurement Officer",
+    "email": "mail@kurt-kaelin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Parlamentarische Gruppe Sicherheit",
+      "Bildungsgruppe",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/952",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Marc Kellenberger",
+    "partei": "SVP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Vilters-Wangs",
+    "beruf": "Polizist",
+    "email": "marc.kellenberger@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Rechtspflegekommission",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Parlamentarische Gruppe Sicherheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/953",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Felix Keller",
+    "partei": "FDP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Geschäftsführer",
+    "email": "f.keller@gsgv.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/954",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ruth Keller-Gätzi",
+    "partei": "FDP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Wittenbach",
+    "beruf": "Leiterin HED der Stadt St.Gallen",
+    "email": "r.keller-gaetzi@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Natur und Umwelt",
+      "Bildungsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Frühe Kindheit",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Alter (Mitglied der Kerngruppe)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/955",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Florian Kobler",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Abteilungsleiter",
+    "email": "flo.kobler@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Natur und Umwelt",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/956",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Stefan Kohler",
+    "partei": "Die Mitte",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Sargans",
+    "beruf": "Gemeindepräsident",
+    "email": "stefan.kohler@sargans.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Ethikgruppe",
+      "Interessengruppe Alter",
+      "Interessengruppe Musik und Gesang",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport (Mitglied der Kerngruppe)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/957",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Benno Koller",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Fachleiter, stv. Abteilungsleiter",
+    "email": "benno.koller@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Sport (Mitglied der Kerngruppe)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/958",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Philipp Köppel",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gaiserwald",
+    "beruf": "Unternehmer, Pilot",
+    "email": "philipp.koeppel@svp-gaiserwald.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR) (Präsident)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Internationale Parlamentarische Bodensee-Konferenz (IPBK) 2024/2028",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Alter",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/959",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Luzia Krempl-Gnädinger",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Goldach",
+    "beruf": "Pflegefachfrau",
+    "email": "luzia@krempl.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Präsidentin)",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Redaktionskommission (Präsidentin)",
+      "Interessengruppe Kultur",
+      "Ethikgruppe (Präsidentin)",
+      "Interessengruppe Alter",
+      "Präsidium des Kantonsrates (Zweite Stimmenzählerin)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/960",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Donat Kuratli",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Bereichsleiter Dienste",
+    "email": "donat.kuratli@svp-stgallen.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Alter",
+      "Interessengruppe Sport",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/961",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Peter Kuster",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Diepoldsau",
+    "beruf": "Landwirt",
+    "email": null,
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/962",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Eva Lemmenmeier",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Ärztin",
+    "email": "eva.lemmenmeier@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Natur und Umwelt",
+      "Bildungsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/963",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christian Lippuner",
+    "partei": "FDP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Grabs",
+    "beruf": "Unternehmer",
+    "email": "christian.lippuner@innovatis.net",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Interessengruppe Sport",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe öffentlicher Verkehr (Präsident)",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/964",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Fredy Louis",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Nesslau",
+    "beruf": "Landwirt",
+    "email": "fredi_louis@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/965",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ivan Louis",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Nesslau",
+    "beruf": "Unternehmer",
+    "email": "mail@ivanlouis.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Rechtspflegekommission",
+      "Wirtschaftsgruppe",
+      "Begleitgruppe RIS",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/966",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sonja Lüthi",
+    "partei": "GLP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Stadträtin",
+    "email": "sonja.luethi@stadt.sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Frühe Kindheit",
+      "Ethikgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur",
+      "Interessengruppe Alter (Mitglied der Kerngruppe)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Parlamentarische Gruppe Sicherheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe öffentlicher Verkehr",
+      "Interessengruppe Wald und Holz"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/967",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Claudia Martin",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Berufsfachschullehrerin, Stadträtin",
+    "email": "claudia.martin@stadtgossau.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Kultur (Mitglied der Kerngruppe)",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Redaktionskommission",
+      "Begleitgruppe RIS (Ersatzmitglied)",
+      "Interessengruppe Natur und Umwelt",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Ethikgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/968",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ruedi Mattle",
+    "partei": "GLP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Stadtpräsident",
+    "email": "ruedi.mattle@altstaetten.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/969",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Remo Maurer",
+    "partei": "SP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Schulratspräsident",
+    "email": "r.maurer@schalt.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Alter",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Kultur",
+      "Interessengruppe Sport",
+      "Bildungsgruppe",
+      "Interessengruppe öffentlicher Verkehr",
+      "Schweizerische Gesellschaft für Parlamentsfragen (SGP)",
+      "Präsidium des Kantonsrates (Kantonsratsvizepräsident)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/970",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Andrin Monstein",
+    "partei": "GLP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Nachhaltigkeitsmanager",
+    "email": "monstein.andrin@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Natur und Umwelt",
+      "FC Kantonsrat",
+      "Interessengruppe Sport (Mitglied der Kerngruppe)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/971",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Mathias Müller",
+    "partei": "Die Mitte",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Lichtensteig",
+    "beruf": "Stadtpräsident",
+    "email": "mathias.mueller@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Alter (Mitglied der Kerngruppe)",
+      "FC Kantonsrat",
+      "Interessengruppe Kultur (Mitglied der Kerngruppe)",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/973",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sarah Noger-Engeler",
+    "partei": "GLP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Häggenschwil",
+    "beruf": "Primarlehrerin, Dozentin PHSG",
+    "email": "sarah.noger-engeler@glp-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Bildungsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur",
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/974",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Peter Nüesch",
+    "partei": "FDP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Diepoldsau",
+    "beruf": "Meisterlandwirt",
+    "email": "peter@tratthof.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Landwirtschaftlicher Klub (Präsident)",
+      "Interessengruppe Sport",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Natur und Umwelt"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/975",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Hans Oppliger",
+    "partei": "EVP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Sennwald",
+    "beruf": "Projektberater",
+    "email": "hans.oppliger@rhytop.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Natur und Umwelt",
+      "Redaktionskommission (Ersatzmitglied)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Ethikgruppe",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Wald und Holz"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/976",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Maria Pappa",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Stadtpräsidentin",
+    "email": "maria.pappa@stadt.sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Parlamentarische Gruppe Sicherheit",
+      "Ethikgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/977",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Brigitte Pool",
+    "partei": "FDP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Uznach",
+    "beruf": "Tierärztin",
+    "email": null,
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/978",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Robert Raths",
+    "partei": "FDP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Rorschach",
+    "beruf": "Stadtpräsident",
+    "email": "robert.raths@rorschach.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Internationale Parlamentarische Bodensee-Konferenz (IPBK) 2024/2028",
+      "FC Kantonsrat",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/979",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sabina Revoli",
+    "partei": "SVP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Tübach",
+    "beruf": "Transporthelferin im Rettungswesen",
+    "email": "sabina.revoli@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Sport",
+      "Staatswirtschaftliche Kommission",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/980",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Heidi Romer-Jud",
+    "partei": "Die Mitte",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Benken",
+    "beruf": "Gemeindepräsidentin",
+    "email": "heidi.romer@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Rechtspflegekommission",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/981",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Mirco Rossi",
+    "partei": "SVP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Sevelen",
+    "beruf": "Polymechaniker",
+    "email": "mirco_rossi@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz",
+      "Wirtschaftsgruppe",
+      "Landwirtschaftlicher Klub",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/982",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Martin Sailer",
+    "partei": "SP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Wildhaus-Alt St.Johann",
+    "beruf": "Betreiber Kleintheater",
+    "email": null,
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "FC Kantonsrat",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/983",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Michael Sarbach",
+    "partei": "GRÜNE",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Fachlehrer, Betriebsleiter",
+    "email": "michael.sarbach@gruene-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Staatswirtschaftliche Kommission",
+      "Interessengruppe Sport",
+      "Interessengruppe Natur und Umwelt",
+      "Bildungsgruppe",
+      "Interessengruppe Kultur (Mitglied der Kerngruppe)",
+      "Interessengruppe öffentlicher Verkehr",
+      "Interessengruppe Kultur (Präsident)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/984",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Florin Scherrer",
+    "partei": "Die Mitte",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gossau",
+    "beruf": "Stadtrat, Raum- und Verkehrsplaner",
+    "email": "florin.scherrer@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/985",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sascha Schmid",
+    "partei": "SVP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Buchs",
+    "beruf": "IT-Auditor",
+    "email": "info@sascha-schmid.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Sport",
+      "Finanzkommission",
+      "Präsidium des Kantonsrates (Fraktionspräsident)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Parlamentarische Gruppe Sicherheit",
+      "FC Kantonsrat",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/987",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Michael Schöbi",
+    "partei": "Die Mitte",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Rechtsanwalt",
+    "email": "michael.schoebi@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Rechtspflegekommission",
+      "Interessengruppe Alter",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Musik und Gesang",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr",
+      "Interessengruppe Wald und Holz",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "FC Kantonsrat",
+      "Bildungsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/988",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Andrea Schöb-Sturzenegger",
+    "partei": "SP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Thal",
+    "beruf": "Leiterin Intervention / Feuerwehrinspektorat",
+    "email": "andrea.schoeb@gvsg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Frauengesundheit Ü50",
+      "Pfalzmusik (Präsidentin)",
+      "Finanzkommission",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Frühe Kindheit",
+      "Interessengruppe Skirennen",
+      "Interessengruppe Alter",
+      "Interessengruppe Musik und Gesang",
+      "Interessengruppe Kultur",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/989",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Isabel Schorer",
+    "partei": "FDP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Unternehmerin",
+    "email": "mail@isabelschorer.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Staatswirtschaftliche Kommission",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Kultur",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr (Präsidentin)",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/990",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ruben Schuler",
+    "partei": "FDP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Mosnang",
+    "beruf": "Jurist",
+    "email": "mail@rubenschuler.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum (Geschäftsführer)",
+      "Landwirtschaftlicher Klub",
+      "Parlamentarische Gruppe Sicherheit (Mitglied der Kerngruppe)",
+      "Redaktionskommission",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/991",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Katrin Schulthess",
+    "partei": "SP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Grabs",
+    "beruf": "Case Managerin FH",
+    "email": "kado@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Mitglied der Kerngruppe)",
+      "Redaktionskommission",
+      "Rechtspflegekommission",
+      "Interessengruppe Frühe Kindheit (Präsidentin)",
+      "Ethikgruppe",
+      "Bildungsgruppe",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Kultur"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/992",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Bruno Schweizer",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Neckertal",
+    "beruf": "Landwirt",
+    "email": "schweizer.bruno@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/993",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Oskar Seger",
+    "partei": "FDP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Bauingenieur, Geschäftsführer",
+    "email": "oskar.seger@icloud.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Begleitgruppe RIS (Ersatzmitglied)",
+      "Bildungsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Kultur"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/994",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sepp Sennhauser",
+    "partei": "Die Mitte",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Biolandwirt",
+    "email": "sepp.sennhauser@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Wirtschaftsgruppe",
+      "Landwirtschaftlicher Klub",
+      "FC Kantonsrat",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Interessengruppe Alter",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Wald und Holz"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/995",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Jigme Shitsetsang",
+    "partei": "FDP",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Stadtrat",
+    "email": "jigme.shitsetsang@stadtwil.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Redaktionskommission (Ersatzmitglied)",
+      "Wirtschaftsgruppe",
+      "Bildungsgruppe",
+      "Interessengruppe Alter",
+      "Interessengruppe Sport",
+      "Interessengruppe Kultur (Mitglied der Kerngruppe)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "FC Kantonsrat"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/996",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Monika Simmler",
+    "partei": "SP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Professorin für Strafrecht, Strafprozessrecht und Kriminologie",
+    "email": "monikasimmler@gmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Sicherheit (Mitglied der Kerngruppe)"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/997",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Franziska Steiner-Kaufmann",
+    "partei": "Die Mitte",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Gommiswald",
+    "beruf": "Bäuerin, Schulleiterin",
+    "email": "franziska.steiner@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Pfalzmusik",
+      "Interessengruppe Frühe Kindheit",
+      "Finanzkommission",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Wald und Holz",
+      "Bildungsgruppe",
+      "Interessengruppe Kultur",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/998",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Martin Stöckling",
+    "partei": "FDP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Rechtsanwalt",
+    "email": "mstoeckling@swissonline.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Kultur",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Rechtspflegekommission",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/999",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Dario Sulzer",
+    "partei": "SP",
+    "wahlkreis": "Wil",
+    "wohnort": "Wil",
+    "beruf": "Fachperson in Sozialer Arbeit",
+    "email": "sulzer@mac.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Präsidium des Kantonsrates (Fraktionspräsident)",
+      "Interessengruppe Alter (Mitglied der Kerngruppe)",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Kultur",
+      "Ethikgruppe",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1000",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Yvonne Suter",
+    "partei": "Die Mitte",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Direktorin",
+    "email": "yvonne@yvonne-suter.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Wirtschaftsgruppe",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1001",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Hans Tanner",
+    "partei": "SVP",
+    "wahlkreis": "Wil",
+    "wohnort": "Degersheim",
+    "beruf": "Meisterlandwirt",
+    "email": "tanner.taa@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1002",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ruedi Thomann",
+    "partei": "SVP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Pfäfers",
+    "beruf": "Meisterlandwirt",
+    "email": "ruedi-thomann@gmx.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1004",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Ariane Thür Wenger",
+    "partei": "SP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Rorschach",
+    "beruf": "Lehrerin",
+    "email": "arianewenger@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Frühe Kindheit",
+      "Bildungsgruppe",
+      "Interessengruppe Alter",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1005",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Boris Tschirky",
+    "partei": "Die Mitte",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "Gaiserwald",
+    "beruf": "Gemeindepräsident",
+    "email": "boris.tschirky@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Finanzkommission",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Präsidium des Kantonsrates (Fraktionspräsident)",
+      "FC Kantonsrat",
+      "Interessengruppe Kultur",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe öffentlicher Verkehr",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1007",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christian Vogel",
+    "partei": "SVP",
+    "wahlkreis": "Toggenburg",
+    "wohnort": "Bütschwil-Ganterschwil",
+    "beruf": "Kaufmann EFZ, Jurist",
+    "email": "chr.vogel@hotmail.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Rechtspflegekommission",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Landwirtschaftlicher Klub"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1008",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Friedrich von Toggenburg",
+    "partei": "Die Mitte",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Buchs",
+    "beruf": "Arzt",
+    "email": "kontakt@friedrichvontoggenburg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1009",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Thomas Warzinek",
+    "partei": "Die Mitte",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Mels",
+    "beruf": "Arzt",
+    "email": "warzinek@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Musik und Gesang",
+      "FC Kantonsrat",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Ethikgruppe",
+      "Interessengruppe Alter"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1010",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Sandro Wasserfallen",
+    "partei": "SVP",
+    "wahlkreis": "Rorschach",
+    "wohnort": "Goldach",
+    "beruf": "Sekundarlehrer phil. l",
+    "email": "sandro.wasserfallen@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Bildungsgruppe",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Fisch und Fleisch",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1011",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christian Willi",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Altstätten",
+    "beruf": "Treuhänder",
+    "email": "christian.willi@gwtreuhand.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Pfalzmusik",
+      "Wirtschaftsgruppe",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Wald und Holz"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1012",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Markus Wüst",
+    "partei": "SVP",
+    "wahlkreis": "Rheintal",
+    "wohnort": "Oberriet",
+    "beruf": "Unternehmer",
+    "email": "markus.wuest@soluma.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Finanzkommission",
+      "Wirtschaftsgruppe (Präsident)",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport",
+      "Bildungsgruppe",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1013",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Anita Wyss",
+    "partei": "GRÜNE",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Vilters-Wangs",
+    "beruf": "Umweltnaturwissenschafterin, Primar- und Realschullehrerin",
+    "email": "anita.wyss@gruene-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Natur und Umwelt (Präsidentin)",
+      "Interessengruppe Frühe Kindheit",
+      "Redaktionskommission (Ersatzmitglied)",
+      "Interessengruppe Sport",
+      "Parlamentarische Gruppe Sicherheit",
+      "Bildungsgruppe",
+      "Interessengruppe öffentlicher Verkehr"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1014",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Bernhard Zahner",
+    "partei": "SVP",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Comestibles-Händler",
+    "email": "info@bernhard-zahner.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Parlamentarische Gruppe Luft- und Raumfahrt (PGLR)",
+      "Finanzkommission",
+      "Interessengruppe Sport",
+      "Interessengruppe Fisch und Fleisch (Präsident)",
+      "Parlamentarische Gruppe Sicherheit",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Wirtschaftsgruppe",
+      "Landwirtschaftlicher Klub",
+      "Ethikgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1015",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Tanja Zschokke",
+    "partei": "GRÜNE",
+    "wahlkreis": "See-Gaster",
+    "wohnort": "Rapperswil-Jona",
+    "beruf": "Landschaftsarchitektin",
+    "email": "tanja.zschokke@gruene-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Natur und Umwelt",
+      "Begleitgruppe RIS (Ersatzmitglied)",
+      "Interessengruppe Alter (Mitglied der Kerngruppe)",
+      "Rechtspflegekommission"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1016",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Christof Züger",
+    "partei": "FDP",
+    "wahlkreis": "Wil",
+    "wohnort": "Niederbüren",
+    "beruf": "Unternehmer",
+    "email": "christof.zueger@zugergroup.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Haus- und Grundeigentum",
+      "Interessengruppe Sport"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1017",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Andreas Bernold",
+    "partei": "FDP",
+    "wahlkreis": "Werdenberg",
+    "wohnort": "Wartau",
+    "beruf": "Gemeindepräsident",
+    "email": "andreas.bernold@bluewin.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Haus- und Grundeigentum"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1018",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Esther Granitzer",
+    "partei": "SVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Komplementärmedizinerin",
+    "email": "politik@esther-granitzer.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Gesundheit (Mitglied der Kerngruppe)",
+      "Interessengruppe Alter",
+      "Interessengruppe Frauengesundheit Ü50",
+      "Interessengruppe Natur und Umwelt",
+      "Interessengruppe Haus- und Grundeigentum",
+      "Präsidium des Kantonsrates (Dritte Stimmenzählerin)",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1019",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Brigitte Borghi",
+    "partei": "SVP",
+    "wahlkreis": "Sarganserland",
+    "wohnort": "Flums",
+    "beruf": "ehemalige Schulpräsidentin",
+    "email": "brigitte.borghi@outlook.com",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1020",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Nicole Hayoz",
+    "partei": "EVP",
+    "wahlkreis": "St.Gallen",
+    "wohnort": "St.Gallen",
+    "beruf": "Dipl. Expertin Intensivpflege HF",
+    "email": "nicole.hayoz@evp-sg.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1021",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  },
+  {
+    "name": "Renaldo Vanzo",
+    "partei": "Die Mitte",
+    "wahlkreis": "Wil",
+    "wohnort": "Degersheim",
+    "beruf": "Förster, Betriebsleiter",
+    "email": "renaldo.vanzo@sg-die-mitte.ch",
+    "telefon": null,
+    "website": null,
+    "kommissionen": [
+      "Interessengruppe Sport",
+      "Interessengruppe Wald und Holz",
+      "Wirtschaftsgruppe"
+    ],
+    "ratsinfo_url": "https://www.ratsinfo.sg.ch/personen/1022",
+    "quelle_stand": "Abgerufen 24.06.2026 via offizielle API von ratsinfo.sg.ch (Ratsinformationssystem Kanton St. Gallen), Mitgliederliste basierend auf Schlussabstimmung vom 04.03.2026 (Fruehjahrssession, 120 Stimmberechtigte) sowie Personendetails aus /api/people/{id}."
+  }
+]

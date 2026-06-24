@@ -1,0 +1,2030 @@
+[
+  {
+    "plz": "7310",
+    "gemeinde": "Bad Ragaz",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7312",
+    "gemeinde": "Pfäfers",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7313",
+    "gemeinde": "Pfäfers",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7314",
+    "gemeinde": "Pfäfers",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7315",
+    "gemeinde": "Pfäfers",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7317",
+    "gemeinde": "Bad Ragaz",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7317",
+    "gemeinde": "Pfäfers",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7320",
+    "gemeinde": "Sargans",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7320",
+    "gemeinde": "Wartau",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "7323",
+    "gemeinde": "Vilters-Wangs",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7324",
+    "gemeinde": "Vilters-Wangs",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7325",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "7326",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8376",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "8376",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "8496",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "8580",
+    "gemeinde": "Muolen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "8630",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8633",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8636",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8637",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8638",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8640",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8645",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8646",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8714",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8715",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8716",
+    "gemeinde": "Schmerikon",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8716",
+    "gemeinde": "Uznach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8717",
+    "gemeinde": "Benken",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8717",
+    "gemeinde": "Kaltbrunn",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8718",
+    "gemeinde": "Schänis",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8722",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8722",
+    "gemeinde": "Kaltbrunn",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8722",
+    "gemeinde": "Schänis",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8723",
+    "gemeinde": "Schänis",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8725",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8725",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8725",
+    "gemeinde": "Uznach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8726",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8726",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "8727",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8730",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8730",
+    "gemeinde": "Schmerikon",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8730",
+    "gemeinde": "Uznach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8732",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8732",
+    "gemeinde": "Schmerikon",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8733",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8734",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8734",
+    "gemeinde": "Rapperswil-Jona",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8735",
+    "gemeinde": "Eschenbach",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8737",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8737",
+    "gemeinde": "Kaltbrunn",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8738",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8739",
+    "gemeinde": "Gommiswald",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8739",
+    "gemeinde": "Kaltbrunn",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8863",
+    "gemeinde": "Benken",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8866",
+    "gemeinde": "Schänis",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8872",
+    "gemeinde": "Amden",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8872",
+    "gemeinde": "Weesen",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8873",
+    "gemeinde": "Amden",
+    "wahlkreis": "See-Gaster",
+    "unsicher": false
+  },
+  {
+    "plz": "8877",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8878",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8878",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8880",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8881",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8882",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8883",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8884",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8885",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8886",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8887",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8887",
+    "gemeinde": "Sargans",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8888",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8888",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8888",
+    "gemeinde": "Sargans",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8889",
+    "gemeinde": "Mels",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8890",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8890",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8892",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8892",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8893",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8893",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8894",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8895",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8896",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8896",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8896",
+    "gemeinde": "Walenstadt",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8897",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8898",
+    "gemeinde": "Flums",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "8898",
+    "gemeinde": "Quarten",
+    "wahlkreis": "Sarganserland",
+    "unsicher": false
+  },
+  {
+    "plz": "9000",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9008",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9008",
+    "gemeinde": "Wittenbach",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9010",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9011",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9012",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9014",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9015",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9015",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9016",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9030",
+    "gemeinde": "Gaiserwald",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9030",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9030",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9032",
+    "gemeinde": "Gaiserwald",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9032",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9033",
+    "gemeinde": "Untereggen",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9034",
+    "gemeinde": "Eggersriet",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9034",
+    "gemeinde": "Untereggen",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9035",
+    "gemeinde": "Eggersriet",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9036",
+    "gemeinde": "Eggersriet",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9037",
+    "gemeinde": "Eggersriet",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9037",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9042",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9043",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9058",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9100",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9103",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9105",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9107",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9107",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9107",
+    "gemeinde": "Wildhaus-Alt St. Johann",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9113",
+    "gemeinde": "Degersheim",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9113",
+    "gemeinde": "Flawil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9113",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9114",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9115",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9116",
+    "gemeinde": "Degersheim",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9116",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9122",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9123",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9123",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9125",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9126",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9127",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9200",
+    "gemeinde": "Flawil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9200",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9200",
+    "gemeinde": "Niederbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9203",
+    "gemeinde": "Niederbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9203",
+    "gemeinde": "Oberbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9204",
+    "gemeinde": "Andwil",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9204",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9204",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9205",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9212",
+    "gemeinde": "Andwil",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9212",
+    "gemeinde": "Gossau",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9213",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9220",
+    "gemeinde": "Muolen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9223",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9230",
+    "gemeinde": "Degersheim",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9230",
+    "gemeinde": "Flawil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9230",
+    "gemeinde": "Oberbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9230",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9231",
+    "gemeinde": "Flawil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9240",
+    "gemeinde": "Oberbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9240",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9240",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9242",
+    "gemeinde": "Jonschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9242",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9242",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9243",
+    "gemeinde": "Jonschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9243",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9244",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9244",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9245",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9245",
+    "gemeinde": "Oberbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9246",
+    "gemeinde": "Niederbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9246",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9247",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9248",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9249",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9300",
+    "gemeinde": "Berg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9300",
+    "gemeinde": "Gaiserwald",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9300",
+    "gemeinde": "St. Gallen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9300",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9300",
+    "gemeinde": "Wittenbach",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9304",
+    "gemeinde": "Waldkirch",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9305",
+    "gemeinde": "Berg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9305",
+    "gemeinde": "Steinach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9306",
+    "gemeinde": "Berg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9308",
+    "gemeinde": "Häggenschwil",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9308",
+    "gemeinde": "Muolen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9308",
+    "gemeinde": "Wittenbach",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9312",
+    "gemeinde": "Häggenschwil",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9313",
+    "gemeinde": "Muolen",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9315",
+    "gemeinde": "Häggenschwil",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9323",
+    "gemeinde": "Steinach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9326",
+    "gemeinde": "Tübach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9327",
+    "gemeinde": "Mörschwil",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9327",
+    "gemeinde": "Tübach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9400",
+    "gemeinde": "Goldach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9400",
+    "gemeinde": "Rorschach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9402",
+    "gemeinde": "Mörschwil",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9403",
+    "gemeinde": "Goldach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9403",
+    "gemeinde": "Rorschacherberg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9404",
+    "gemeinde": "Rorschach",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9404",
+    "gemeinde": "Rorschacherberg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9404",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9404",
+    "gemeinde": "Untereggen",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9405",
+    "gemeinde": "Eggersriet",
+    "wahlkreis": "St.Gallen",
+    "unsicher": false
+  },
+  {
+    "plz": "9405",
+    "gemeinde": "Rorschacherberg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9411",
+    "gemeinde": "Berneck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9422",
+    "gemeinde": "Rorschacherberg",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9422",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9423",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9424",
+    "gemeinde": "Rheineck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9424",
+    "gemeinde": "St. Margrethen",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9425",
+    "gemeinde": "Rheineck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9425",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9426",
+    "gemeinde": "Rheineck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9426",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9427",
+    "gemeinde": "Thal",
+    "wahlkreis": "Rorschach",
+    "unsicher": false
+  },
+  {
+    "plz": "9428",
+    "gemeinde": "St. Margrethen",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9430",
+    "gemeinde": "St. Margrethen",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9434",
+    "gemeinde": "Au",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9434",
+    "gemeinde": "Berneck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9435",
+    "gemeinde": "Au",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9435",
+    "gemeinde": "Balgach",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9435",
+    "gemeinde": "Berneck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9435",
+    "gemeinde": "Widnau",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9436",
+    "gemeinde": "Balgach",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9436",
+    "gemeinde": "Diepoldsau",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9436",
+    "gemeinde": "Oberriet",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9437",
+    "gemeinde": "Marbach",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9437",
+    "gemeinde": "Rebstein",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9442",
+    "gemeinde": "Berneck",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9443",
+    "gemeinde": "Diepoldsau",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9443",
+    "gemeinde": "Widnau",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9444",
+    "gemeinde": "Diepoldsau",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9445",
+    "gemeinde": "Balgach",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9445",
+    "gemeinde": "Rebstein",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9450",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9451",
+    "gemeinde": "Oberriet",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9452",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9452",
+    "gemeinde": "Eichberg",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9453",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9453",
+    "gemeinde": "Eichberg",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9462",
+    "gemeinde": "Oberriet",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9463",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9463",
+    "gemeinde": "Oberriet",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9463",
+    "gemeinde": "Rüthi",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9464",
+    "gemeinde": "Altstätten",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9464",
+    "gemeinde": "Rüthi",
+    "wahlkreis": "Rheintal",
+    "unsicher": false
+  },
+  {
+    "plz": "9465",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9466",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9467",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9468",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9469",
+    "gemeinde": "Buchs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9469",
+    "gemeinde": "Gams",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9469",
+    "gemeinde": "Grabs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9469",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9470",
+    "gemeinde": "Buchs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9470",
+    "gemeinde": "Grabs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9470",
+    "gemeinde": "Sevelen",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9472",
+    "gemeinde": "Grabs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9473",
+    "gemeinde": "Gams",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9473",
+    "gemeinde": "Sennwald",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9475",
+    "gemeinde": "Sevelen",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9476",
+    "gemeinde": "Sevelen",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9476",
+    "gemeinde": "Wartau",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9477",
+    "gemeinde": "Wartau",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9478",
+    "gemeinde": "Wartau",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9479",
+    "gemeinde": "Wartau",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9500",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9500",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9500",
+    "gemeinde": "Zuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9512",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9514",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9515",
+    "gemeinde": "Zuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9523",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9523",
+    "gemeinde": "Zuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9524",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9524",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9524",
+    "gemeinde": "Zuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9525",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9525",
+    "gemeinde": "Oberbüren",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9526",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9527",
+    "gemeinde": "Niederhelfenschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9532",
+    "gemeinde": "Jonschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9532",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9533",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9534",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9536",
+    "gemeinde": "Jonschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9536",
+    "gemeinde": "Uzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9536",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9543",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9552",
+    "gemeinde": "Wil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9601",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9601",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9601",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9601",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9602",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9602",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9604",
+    "gemeinde": "Jonschwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9604",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9604",
+    "gemeinde": "Oberuzwil",
+    "wahlkreis": "Wil",
+    "unsicher": false
+  },
+  {
+    "plz": "9606",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9607",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9608",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9608",
+    "gemeinde": "Lütisburg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9608",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9612",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9613",
+    "gemeinde": "Kirchberg",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9613",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9614",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9614",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9615",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9615",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9615",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9620",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9620",
+    "gemeinde": "Lichtensteig",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9620",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9620",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9621",
+    "gemeinde": "Bütschwil-Ganterschwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9621",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9622",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9630",
+    "gemeinde": "Mosnang",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9630",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9630",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9631",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9633",
+    "gemeinde": "Ebnat-Kappel",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9633",
+    "gemeinde": "Neckertal",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9633",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9633",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9642",
+    "gemeinde": "Ebnat-Kappel",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9642",
+    "gemeinde": "Wattwil",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9643",
+    "gemeinde": "Ebnat-Kappel",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9643",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9650",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9651",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9652",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9655",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9656",
+    "gemeinde": "Nesslau",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9656",
+    "gemeinde": "Wildhaus-Alt St. Johann",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9657",
+    "gemeinde": "Wildhaus-Alt St. Johann",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  },
+  {
+    "plz": "9658",
+    "gemeinde": "Gams",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9658",
+    "gemeinde": "Grabs",
+    "wahlkreis": "Werdenberg",
+    "unsicher": false
+  },
+  {
+    "plz": "9658",
+    "gemeinde": "Wildhaus-Alt St. Johann",
+    "wahlkreis": "Toggenburg",
+    "unsicher": false
+  }
+]
