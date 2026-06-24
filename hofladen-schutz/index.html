@@ -179,6 +179,8 @@
   .btn-primary:hover { background:var(--gold-hell); transform:translateY(-1px); }
   .btn-outline { background:transparent; color:var(--weiss); padding:1rem 2.2rem; font-weight:500; font-size:0.95rem; border:1px solid rgba(255,255,255,0.3); border-radius:2px; cursor:pointer; text-decoration:none; transition:all 0.2s; display:inline-block; }
   .btn-outline:hover { border-color:var(--gold); color:var(--gold); }
+  .btn-outline-dark { background:transparent; color:var(--gruen); padding:1rem 2.2rem; font-weight:600; font-size:0.95rem; border:1px solid var(--gruen); border-radius:2px; cursor:pointer; text-decoration:none; transition:all 0.2s; display:inline-block; }
+  .btn-outline-dark:hover { background:var(--gruen); color:var(--weiss); }
 
   /* PROGRESS */
   .progress-block { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.1); border-radius:4px; padding:1.25rem 1.25rem; }
@@ -221,6 +223,19 @@
   .law-card-num { font-size:0.75rem; font-weight:700; letter-spacing:0.1em; color:var(--gold); text-transform:uppercase; margin-bottom:0.5rem; }
   .law-card h3 { font-size:1.05rem; color:var(--gruen); margin-bottom:0.75rem; font-weight:600; }
   .law-card p { font-size:0.9rem; color:var(--text-soft); line-height:1.65; }
+
+  .artikel-kapitel { font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--gruen); margin:2rem 0 0.75rem; }
+  .artikel-kapitel:first-child { margin-top:0; }
+  .artikel-card { background:var(--weiss); border:1px solid #e8e2d6; border-radius:4px; padding:1.5rem 1.5rem 1.25rem; margin-bottom:1rem; }
+  .artikel-head { display:flex; align-items:baseline; gap:0.6rem; flex-wrap:wrap; margin-bottom:0.75rem; }
+  .artikel-num { font-family:'Playfair Display',serif; font-weight:900; color:var(--gold); font-size:1.05rem; flex-shrink:0; }
+  .artikel-titel { font-size:1.02rem; font-weight:600; color:var(--gruen); }
+  .artikel-body p { font-size:0.88rem; color:var(--text-soft); line-height:1.65; margin-bottom:0.6rem; }
+  .artikel-body ul { margin:0 0 0.6rem 1.1rem; padding:0; }
+  .artikel-body li { font-size:0.88rem; color:var(--text-soft); line-height:1.6; margin-bottom:0.3rem; }
+  .artikel-note { font-size:0.82rem; color:var(--text-soft); background:var(--creme); border-left:2px solid var(--gold); padding:0.5rem 0.75rem; margin:0.5rem 0; font-style:italic; }
+  .artikel-feedback-btn { background:transparent; border:1px solid var(--gruen); color:var(--gruen); font-size:0.8rem; font-weight:600; padding:0.5rem 1rem; border-radius:2px; cursor:pointer; margin-top:0.5rem; transition:all 0.2s; }
+  .artikel-feedback-btn:hover { background:var(--gruen); color:var(--weiss); }
 
   /* MEDIENSPIEGEL */
   #medien { background:#f5f0e8; }
@@ -512,6 +527,7 @@
     <li><a href="#stimmen">Stimmen</a></li>
     <li><a href="#parlamentarier">Parlament</a></li>
     <li><a href="#komitee">Komitee</a></li>
+    <li><a href="#mitmachen">Mitmachen</a></li>
     <li><a href="#petition">Unterschreiben</a></li>
   </ul>
   <div class="nav-actions">
@@ -596,15 +612,25 @@
     <p class="section-lead">Rechtssicherheit für Landwirtschaft, Gewerbe und Kulturstätten – einfach, kostenlos und ohne unnötige Bürokratie.</p>
     <div class="law-grid">
       <div class="law-card"><div class="law-card-num">§ 2</div><h3>Wer profitiert</h3><p>Hofläden und Direktvermarkter, Gewerbebetriebe mit eigenem Gelände, Kirchen und Andachtsräume sowie Wegkreuze, Bildstöcke und Feldkapellen mit Denkmal- oder Kulturwert.</p></div>
-      <div class="law-card"><div class="law-card-num">§ 3</div><h3>Eigenes Gelände: ohne Bewilligung</h3><p>Das eigene Areal darf bewilligungsfrei und rund um die Uhr überwacht werden. Es genügt eine einmalige, kostenlose Selbstdeklaration bei der Kantonspolizei.</p></div>
+      <div class="law-card"><div class="law-card-num">§ 3</div><h3>Eigenes Gelände: ohne Bewilligung, 24/7, 30 Tage</h3><p>Das eigene Areal darf bewilligungsfrei und rund um die Uhr überwacht werden. Es genügt eine einmalige, kostenlose Selbstdeklaration bei der Kantonspolizei. Speicherdauer bis zu 30 Tage, bei laufenden Strafverfahren bis zu deren Abschluss.</p></div>
       <div class="law-card"><div class="law-card-num">§ 4</div><h3>Öffentliche Flächen: Genehmigungsfiktion</h3><p>Für angrenzende öffentliche Flächen stellt die Kantonspolizei gratis eine Bewilligung aus. Sie gilt automatisch als erteilt, wenn nicht innert 30 Tagen widersprochen wird.</p></div>
-      <div class="law-card"><div class="law-card-num">§ 3</div><h3>24/7 &amp; 30 Tage</h3><p>Aufzeichnung rund um die Uhr ist zulässig. Speicherdauer bis zu 30 Tage, bei laufenden Strafverfahren bis zu deren Abschluss.</p></div>
-      <div class="law-card"><div class="law-card-num">§ 6</div><h3>Eine Kennzeichnung genügt</h3><p>Ein einziger gut sichtbarer Hinweis am Zugang reicht. Keine Einzelkennzeichnung jeder Kamera mehr nötig.</p></div>
       <div class="law-card"><div class="law-card-num">§ 5</div><h3>Zweckbindung &amp; keine Dauerüberwachung</h3><p>Aufnahmen dienen nur der Strafverfolgung und Sicherheit. Sie werden <strong>nicht permanent angeschaut</strong>, sondern nur im konkreten Schadensfall gesichtet – keine Weitergabe, keine Gesichtserkennung.</p></div>
+      <div class="law-card"><div class="law-card-num">§ 6</div><h3>Eine Kennzeichnung genügt</h3><p>Ein einziger gut sichtbarer Hinweis am Zugang reicht. Keine Einzelkennzeichnung jeder Kamera mehr nötig.</p></div>
     </div>
-    <div style="margin-top:2rem;">
+    <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
       <a href="Betriebsschutzgesetz_BSchG.pdf" download class="btn-primary">📄 Vollständigen Gesetzestext (PDF) herunterladen</a>
+      <a href="#mitmachen" class="btn-outline-dark">✍ Gesetzestext §1-9 lesen &amp; mitreden</a>
     </div>
+  </div>
+</section>
+
+<!-- MITMACHEN: VOLLSTÄNDIGER GESETZESTEXT MIT ARTIKEL-FEEDBACK -->
+<section id="mitmachen" style="background:var(--creme-dunkel);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Mitmachen</div>
+    <h2>Der Gesetzestext, Artikel für Artikel</h2>
+    <p class="section-lead">Dies ist eine Arbeitsfassung des Initiativkomitees, vor der Unterschriftensammlung noch durch eine staatsrechtliche Fachperson zu prüfen. Haben Sie eine Frage oder einen Änderungsvorschlag zu einem einzelnen Artikel? Tragen Sie ihn dort direkt ein – wir melden uns und informieren Sie, wenn sich an diesem Artikel etwas ändert.</p>
+    <div class="artikel-list" id="artikelList"></div>
   </div>
 </section>
 
@@ -699,7 +725,7 @@
           <label for="petitionPublic">Ich bin einverstanden, dass mein Name und Wohnort öffentlich auf der Liste erscheinen.</label>
         </div>
         <button class="petition-submit" onclick="signPetition()">✍ Jetzt unterzeichnen</button>
-        <a href="Unterschriftenbogen_Hofladen-Schutzgesetz.pdf" download style="display:block;text-align:center;margin-top:1rem;color:rgba(255,255,255,0.85);font-size:0.85rem;text-decoration:underline;">📄 Offiziellen Unterschriftenbogen (PDF) herunterladen</a>
+        <p style="font-size:0.78rem;color:rgba(255,255,255,0.45);margin-top:1rem;text-align:center;">Dies ist eine Online-Unterstützungsbekundung. Der offizielle, vom Amt anerkannte Unterschriftenbogen für die Volksinitiative folgt, sobald der Gesetzestext final steht.</p>
       </div>
     </div>
   </div>
@@ -917,7 +943,7 @@
 <footer>
   <div class="footer-logo">Hofladen-Schutzgesetz</div>
   <p>Eine politische Initiative für sichere Direktvermarktung. Alle Angaben ohne Gewähr – offizielle Stellungnahmen sind direkt von den Parlamentariern eingeholt.</p>
-  <p><a href="#gesetz">Gesetz</a> · <a href="#medien">Medien</a> · <a href="#parlamentarier">Parlamentarier</a> · <a href="#petition">Unterschreiben</a> · <a href="#whatsapp">WhatsApp</a> · <a href="#spenden">Spenden</a> · <a href="#faq">FAQ</a></p>
+  <p><a href="#gesetz">Gesetz</a> · <a href="#medien">Medien</a> · <a href="#parlamentarier">Parlamentarier</a> · <a href="#mitmachen">Mitmachen</a> · <a href="#petition">Unterschreiben</a> · <a href="#whatsapp">WhatsApp</a> · <a href="#spenden">Spenden</a> · <a href="#faq">FAQ</a> · <a href="/datenschutz.html">Datenschutz</a></p>
   <div class="footer-socials">
     <a href="https://instagram.com/jonasstreule" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram @jonasstreule">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85C2.38 3.91 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.7.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.35 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95C23.73 2.7 21.3.27 16.95.07 15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-10.84a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>
@@ -955,6 +981,22 @@
     <input type="text" id="vip-org" placeholder="Organisation / Unternehmen">
     <textarea id="vip-zitat" placeholder="Ihr Zitat zur Initiative (optional, max. 150 Zeichen)" maxlength="150"></textarea>
     <button class="modal-submit" onclick="registerVip()">Jetzt registrieren</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="artikel-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('artikel-modal')">✕</button>
+    <h3 id="artikel-modal-titel">Frage zu Artikel</h3>
+    <p>Ihre Frage oder Ihr Änderungsvorschlag wird vom Initiativkomitee gesichtet. Bei einer Änderung an diesem Artikel informieren wir Sie auf Wunsch direkt.</p>
+    <input type="text" id="artikel-name" placeholder="Ihr Name">
+    <input type="email" id="artikel-email" placeholder="Ihre E-Mail">
+    <textarea id="artikel-kommentar" placeholder="Ihre Frage oder Ihr Änderungsvorschlag" style="min-height:120px"></textarea>
+    <div class="petition-checkbox" style="margin-top:0.25rem;">
+      <input type="checkbox" id="artikel-notify" checked style="accent-color:var(--gruen);">
+      <label for="artikel-notify" style="color:var(--text-soft);">Ich möchte informiert werden, wenn sich an diesem Artikel etwas ändert.</label>
+    </div>
+    <button class="modal-submit" onclick="submitArtikelFeedback()">Absenden</button>
   </div>
 </div>
 
@@ -1001,6 +1043,94 @@ async function ladeKantonsratsdaten() {
 const API_BASE = '/api/hofladen-schutz';
 
 let vips = [];
+let petitionSigners = [];
+
+// ── GESETZESTEXT §1-9 (Arbeitsfassung Initiativkomitee) ────────
+const gesetzArtikel = [
+  { num:'§ 1', titel:'Zweck', kapitel:'I. Allgemeine Bestimmungen', html:
+    '<p>¹ Dieses Gesetz bezweckt den wirksamen Schutz von Personen, Tieren, Waren, Einrichtungen, Betriebsgelände sowie schützenswerten Andachts-, Denkmal- und Kulturstätten vor Diebstahl, Sachbeschädigung, Einbruch und Vandalismus.</p>' +
+    '<p>² Es schafft für berechtigte Trägerschaften eine einfache, rasche und kostenlose Grundlage für Videoüberwachung.</p>' },
+  { num:'§ 2', titel:'Geltungsbereich', kapitel:null, html:
+    '<p>¹ Berechtigt sind:</p>' +
+    '<ul>' +
+      '<li>a) landwirtschaftliche Direktvermarktungsbetriebe (Hofläden, 24h-Selbstbedienungsstellen, Automatenstandorte mit landwirtschaftlichem Sortiment);</li>' +
+      '<li>b) Gewerbebetriebe mit eigenem Geschäfts-, Verkaufs-, Werkstatt- oder Lagergelände;</li>' +
+      '<li>c) Trägerschaften von Andachtsräumen und Gebetsstätten für deren Innenräume und Standortbereich;</li>' +
+      '<li>d) Eigentümer oder Unterhaltspflichtige sakraler Klein- und Flurdenkmäler sowie religiöser und kultureller Andachtsstätten – namentlich Wegkreuze, Bildstöcke, Feldkapellen, Grotten und vergleichbare Objekte –, soweit diese als Kulturgut oder als Bestandteil der traditionellen Kulturlandschaft schützenswert sind;</li>' +
+      '<li>e) im Handelsregister, Landwirtschaftsregister oder als anerkannte Körperschaft eingetragene Trägerschaften.</li>' +
+    '</ul>' +
+    '<p>² Als geschütztes Areal gilt das Betriebsgelände bzw. der Standort der Stätte einschliesslich Zugängen, Zufahrten, Vorplätzen und unmittelbarer Umgebung, soweit sie dem Schutzzweck dienen.</p>' },
+  { num:'§ 3', titel:'Überwachung des eigenen Areals (Stufe 1)', kapitel:'II. Videoüberwachung', html:
+    '<p>¹ Berechtigte dürfen ihr eigenes Betriebsgelände, ihre Innenräume sowie Andachts- und Kulturstätten samt deren unmittelbarem Standortbereich ohne Bewilligung mittels Videoüberwachung schützen.</p>' +
+    '<p>² Die Aufnahme erfolgt durch einmalige Selbstdeklaration gegenüber der Kantonspolizei. Ein Verfahren oder eine Gebühr fallen nicht an.</p>' +
+    '<p>³ Die Überwachung darf rund um die Uhr (24/7) betrieben werden. Aufzeichnungen dürfen bis zu 30 Tage gespeichert werden; bei laufenden Strafverfahren bis zu deren Abschluss.</p>' },
+  { num:'§ 4', titel:'Erfassung angrenzender öffentlicher Flächen (Stufe 2)', kapitel:null, html:
+    '<p>¹ Soweit zur Sicherung erforderlich, darf die Erfassung unmittelbar angrenzender öffentlicher Flächen (Zufahrtswege, Vorplätze) sowie des öffentlichen Standortbereichs freistehender Andachtsstätten zugelassen werden.</p>' +
+    '<p>² Hierfür stellt die Kantonspolizei auf Gesuch eine Bewilligung aus. Das Verfahren ist kostenlos und für Berechtigte vereinfacht.</p>' +
+    '<p>³ Genehmigungsfiktion: Die Bewilligung gilt als erteilt, wenn die Kantonspolizei nicht innert 30 Tagen seit Eingang des vollständigen Gesuchs schriftlich widerspricht.</p>' +
+    '<p class="artikel-note">Die Erfassung ist auf das zur Sicherung Notwendige zu beschränken. Bereiche ohne Schutzbezug sind technisch auszublenden (Maskierung).</p>' },
+  { num:'§ 5', titel:'Zweckbindung und Visionierung', kapitel:null, html:
+    '<p>¹ Aufzeichnungen dürfen ausschliesslich verwendet werden für:</p>' +
+    '<ul>' +
+      '<li>a) Strafverfolgung bei Diebstahl, Sachbeschädigung, Einbruch, Vandalismus;</li>' +
+      '<li>b) Nachweis bei zivilrechtlichen Ansprüchen;</li>' +
+      '<li>c) betriebliche Sicherheit.</li>' +
+    '</ul>' +
+    '<p>² Die Aufzeichnungen werden nicht permanent visioniert. Eine Sichtung erfolgt erst im konkreten Anlassfall, namentlich bei Verdacht auf eine Straftat oder einen Schaden. Bis dahin werden die Daten ausschliesslich gespeichert.</p>' +
+    '<p>³ Eine Weitergabe an Dritte ist untersagt, ausgenommen an Strafverfolgungsbehörden auf rechtmässige Anfrage.</p>' +
+    '<p class="artikel-note">Eine automatisierte Gesichtserkennung oder biometrische Auswertung ist untersagt.</p>' +
+    '<p class="artikel-note">Hinweis zur Verhältnismässigkeit (Abs. 2): Die Beschränkung der Visionierung auf den konkreten Anlassfall stützt sich auf die Rechtsprechung des Verwaltungsgerichts St. Gallen (B 2005/202, Urteil vom 9. Mai 2006), wonach eine Videoüberwachung mit Speicherung, aber ohne permanente Sichtung, auch in der abstrakten Normenkontrolle als verhältnismässig beurteilt wurde.</p>' },
+  { num:'§ 6', titel:'Kennzeichnung', kapitel:null, html:
+    '<p>¹ Überwachte Bereiche sind durch einen gut sichtbaren Hinweis am Zugang zu kennzeichnen. Eine Einzelkennzeichnung jeder Kamera ist nicht erforderlich.</p>' +
+    '<p>² Der Hinweis nennt den Betreiber und eine Kontaktmöglichkeit.</p>' },
+  { num:'§ 7', titel:'Zuständigkeit', kapitel:'III. Behörden und Vollzug', html:
+    '<p>¹ Vollzugs-, Bewilligungs- und Aufsichtsbehörde ist die Kantonspolizei.</p>' +
+    '<p>² Sie führt ein vereinfachtes, kostenloses Verfahren und stellt standardisierte Formulare bereit.</p>' },
+  { num:'§ 8', titel:'Verhältnis zum Bundesrecht', kapitel:null, html:
+    '<p>Die Bestimmungen des Bundesrechts, insbesondere des Datenschutzgesetzes, bleiben vorbehalten. Die Behörde legt dieses Gesetz im Rahmen des Bundesrechts möglichst betriebsfreundlich aus.</p>' },
+  { num:'§ 9', titel:'Aufsicht und Widerruf', kapitel:null, html:
+    '<p>Bei Missbrauch oder Überschreitung des Notwendigen kann die Kantonspolizei die Bewilligung widerrufen oder Auflagen verfügen.</p>' },
+];
+
+function renderArtikel() {
+  document.getElementById('artikelList').innerHTML = gesetzArtikel.map(a => `
+    ${a.kapitel ? `<div class="artikel-kapitel">${a.kapitel}</div>` : ''}
+    <div class="artikel-card">
+      <div class="artikel-head"><span class="artikel-num">${a.num}</span><span class="artikel-titel">${a.titel}</span></div>
+      <div class="artikel-body">${a.html}</div>
+      <button class="artikel-feedback-btn" onclick="openArtikelFeedback('${a.num} ${a.titel.replace(/'/g,"\\'")}')">✍ Frage / Änderungsvorschlag</button>
+    </div>`).join('');
+}
+
+let currentArtikelForFeedback = '';
+function openArtikelFeedback(label) {
+  currentArtikelForFeedback = label;
+  document.getElementById('artikel-modal-titel').textContent = `Frage zu ${label}`;
+  document.getElementById('artikel-name').value = '';
+  document.getElementById('artikel-email').value = '';
+  document.getElementById('artikel-kommentar').value = '';
+  document.getElementById('artikel-notify').checked = true;
+  openModal('artikel-modal');
+}
+
+async function submitArtikelFeedback() {
+  const name = document.getElementById('artikel-name').value.trim();
+  const email = document.getElementById('artikel-email').value.trim();
+  const kommentar = document.getElementById('artikel-kommentar').value.trim();
+  const notify = document.getElementById('artikel-notify').checked;
+  if (!name || !email || !kommentar) { showToast('❌ Bitte Name, E-Mail und Ihre Frage angeben.'); return; }
+  try {
+    const res = await fetch(`${API_BASE}/article-feedback`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ artikel: currentArtikelForFeedback, name, email, kommentar, notify }),
+    });
+    if (!res.ok) throw new Error('request failed');
+    showToast(`✍ Danke, ${name.split(' ')[0]}! Ihre Eingabe zu ${currentArtikelForFeedback} ist eingegangen.`);
+    closeModal('artikel-modal');
+  } catch (e) {
+    showToast('❌ Eingabe konnte nicht übermittelt werden. Bitte später erneut versuchen.');
+  }
+}
 
 async function ladeVips() {
   try {
@@ -1037,7 +1167,6 @@ let currentFilter = 'alle';
 let currentWahlkreisFilter = 'alle';
 let selectedBetrag = 50;
 let currentParlForContact = null;
-let petitionSigners = [];
 
 // ── RENDER MEDIEN ──────────────────────────────────────────────
 function renderMedien() {
@@ -1462,6 +1591,7 @@ renderKomitee();
 renderParl('alle','alle');
 renderVip();
 renderSigners();
+renderArtikel();
 renderFaq();
 ladeKantonsratsdaten();
 ladePetitionStatus();

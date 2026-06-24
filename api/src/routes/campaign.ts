@@ -154,4 +154,20 @@ router.post('/finder-lead', async (req: CampaignRequest, res: Response) => {
   res.status(201).json({ ok: true });
 });
 
+// ── ARTIKEL-FEEDBACK (Fragen/Änderungsvorschläge zum Gesetzestext) ─
+router.post('/article-feedback', async (req: CampaignRequest, res: Response) => {
+  const { campaign } = req.params;
+  const { artikel, name, email, kommentar, notify } = req.body ?? {};
+  if (!isNonEmptyString(artikel, 20)) return badRequest(res, 'artikel fehlt');
+  if (!isNonEmptyString(name, 120)) return badRequest(res, 'name fehlt');
+  if (!isValidEmail(email)) return badRequest(res, 'email ungueltig');
+  if (!isNonEmptyString(kommentar, 4000)) return badRequest(res, 'kommentar fehlt oder zu lang');
+
+  await pool.query(
+    `INSERT INTO article_feedback (campaign, artikel, name, email, kommentar, notify) VALUES ($1,$2,$3,$4,$5,$6)`,
+    [campaign, artikel.trim(), name.trim(), email, kommentar.trim(), notify !== false]
+  );
+  res.status(201).json({ ok: true });
+});
+
 export default router;
