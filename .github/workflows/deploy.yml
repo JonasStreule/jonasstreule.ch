@@ -15,3 +15,4 @@ jobs:
           script: |
             cd /srv/jonasstreule/repo
             git pull origin main
+            cd api && docker compose -f docker-compose.prod.yml up -d --build

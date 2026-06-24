@@ -1,0 +1,31 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:4010:4010"
+    environment:
+      DATABASE_URL: postgresql://${DB_USER:-jonasapi}:${DB_PASSWORD}@postgres:5432/jonasstreule_api
+      PORT: 4010
+      NODE_ENV: production
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: jonasstreule_api
+      POSTGRES_USER: ${DB_USER:-jonasapi}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-jonasapi}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
