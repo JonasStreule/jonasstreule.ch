@@ -3,6 +3,7 @@ import { pool } from '../db';
 import {
   isNonEmptyString, isValidEmail, isOptionalEmail, isValidPlz, isValidPhone,
 } from '../validate';
+import { subscribeToListmonk } from '../listmonk';
 
 type CampaignParams = { campaign: string };
 type CampaignRequest = Request<CampaignParams>;
@@ -86,13 +87,15 @@ router.get('/spende', async (req: CampaignRequest, res: Response) => {
 // ── NEWSLETTER ───────────────────────────────────────────────────
 router.post('/newsletter', async (req: CampaignRequest, res: Response) => {
   const { campaign } = req.params;
-  const { email } = req.body ?? {};
+  const { email, name } = req.body ?? {};
   if (!isValidEmail(email)) return badRequest(res, 'email ungueltig');
   await pool.query(
     `INSERT INTO newsletter_subscribers (campaign, email) VALUES ($1,$2)
      ON CONFLICT (campaign, email) DO NOTHING`,
     [campaign, email]
   );
+  // an Listmonk weiterreichen (Double-Opt-in); Fehler nicht fatal
+  await subscribeToListmonk(campaign, email, typeof name === 'string' ? name : undefined);
   res.status(201).json({ ok: true });
 });
 

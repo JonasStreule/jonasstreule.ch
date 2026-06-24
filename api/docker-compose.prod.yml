@@ -8,6 +8,10 @@ services:
       DATABASE_URL: postgresql://${DB_USER:-jonasapi}:${DB_PASSWORD}@postgres:5432/jonasstreule_api
       PORT: 4010
       NODE_ENV: production
+      LISTMONK_URL: ${LISTMONK_URL:-}
+      LISTMONK_API_USER: ${LISTMONK_API_USER:-}
+      LISTMONK_API_TOKEN: ${LISTMONK_API_TOKEN:-}
+      LISTMONK_LISTS: ${LISTMONK_LISTS:-}
     depends_on:
       postgres:
         condition: service_healthy

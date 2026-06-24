@@ -1,66 +1,84 @@
 # Betriebsschutzgesetz (BSchG) – Projektstand
 
-**Stand:** 23. Juni 2025
+**Stand:** Juni 2026
 **Form:** Eigenständiges kantonales Spezialgesetz (Kanton St. Gallen)
+**Live:** https://jonasstreule.ch/hofladen-schutz/
 
 ---
 
-## Dateien in diesem Ordner
+## Architektur
 
-1. **hofladen-schutzgesetz.html** – Die Kampagnen-Website (im Browser öffnen)
-2. **Betriebsschutzgesetz_BSchG.pdf** – Der vollständige Gesetzestext (§§ 1–9)
-3. **Unterschriftenbogen_Hofladen-Schutzgesetz.pdf** – Offizieller Sammelbogen
+Multi-Kampagnen-Setup unter `jonasstreule.ch`, deployt via GitHub Actions → SSH →
+`git pull` auf einem Hetzner-Server (Caddy als Reverse Proxy).
+
+```
+/                      → Hub-Startseite (index.html), listet alle Kampagnen
+/hofladen-schutz/      → Kampagnenseite (hofladen-schutz/index.html)
+/datenschutz.html      → gemeinsame Datenschutzerklärung
+/shared/*.json         → geteilte Daten (Kantonsräte, PLZ→Wahlkreis)
+/api/<campaign>/...    → Backend (Node/Express/Postgres, im Container)
+liste.jonasstreule.ch  → Listmonk (Newsletter), Double-Opt-in
+```
+
+Das Frontend ist je eine in sich geschlossene HTML-Datei (CSS + JS inline),
+mobile-first. Das Backend liegt unter `api/` (TypeScript, Migrations in
+`api/migrations/`). Secrets stehen serverseitig in `/srv/jonasstreule/repo/api/.env`
+(nicht in git).
 
 ---
 
-## Gesetzestext – aktueller Stand
+## Gesetzestext – aktueller Stand (§§ 1–9)
 
-Eigenständiges Spezialgesetz mit 9 Paragraphen. Kernpunkte:
+Vollständig auf der Seite unter „Mitmachen" abgebildet (jeder Artikel ist dort
+kommentierbar). Kernpunkte:
 
-- **§ 2 Geltungsbereich:** Landwirtschaft (Hofläden, 24h-Läden, Automaten), Gewerbe (eigenes Gelände), Andachtsräume sowie sakrale Klein- und Flurdenkmäler (Wegkreuze, Bildstöcke, Feldkapellen) mit Denkmal-/Kulturwert
-- **§ 3 Stufe 1 (eigenes Gelände):** bewilligungsfrei, gratis, 24/7, Selbstdeklaration bei der Kantonspolizei, 30 Tage Speicherung
-- **§ 4 Stufe 2 (öffentliche Flächen):** Kapo-Bewilligung, gratis, mit Genehmigungsfiktion (gilt als erteilt, wenn Kapo nicht innert 30 Tagen widerspricht); Beschränkung aufs Notwendige + Maskierung
-- **§ 5 Zweckbindung:** nur Strafverfolgung/Sicherheit, KEINE permanente Visionierung (nur Sichtung im Anlassfall), keine Weitergabe, keine Gesichtserkennung
+- **§ 2 Geltungsbereich:** Landwirtschaft (Hofläden, 24h-Läden, Automaten),
+  Gewerbe (eigenes Gelände), Andachtsräume sowie sakrale Klein- und Flurdenkmäler
+  (Wegkreuze, Bildstöcke, Feldkapellen) mit Denkmal-/Kulturwert
+- **§ 3 Stufe 1 (eigenes Gelände):** bewilligungsfrei, gratis, 24/7,
+  Selbstdeklaration bei der Kantonspolizei, 30 Tage Speicherung
+- **§ 4 Stufe 2 (öffentliche Flächen):** Kapo-Bewilligung, gratis, mit
+  Genehmigungsfiktion (gilt als erteilt, wenn Kapo nicht innert 30 Tagen
+  widerspricht); Beschränkung aufs Notwendige + Maskierung
+- **§ 5 Zweckbindung:** nur Strafverfolgung/Sicherheit, KEINE permanente
+  Visionierung (nur Sichtung im Anlassfall), keine Weitergabe, keine Gesichtserkennung
 - **§ 6 Kennzeichnung:** ein Hinweis am Zugang genügt
 - **§ 7 Zuständigkeit:** Kantonspolizei
 - **§ 8 Bundesrecht:** Vorbehalt, betriebsfreundliche Auslegung
 - **§ 9 Aufsicht/Widerruf**
 
----
-
-## Rechtliche Absicherung (bereits eingebaut)
+### Rechtliche Absicherung (im Text verankert – nicht entfernen)
 
 - **§ 5 Abs. 2 (Visionierungsbeschränkung)** stützt sich auf das Urteil des
-  Verwaltungsgerichts St. Gallen **B 2005/202 vom 9. Mai 2006**. Dieses hielt
-  eine Überwachung mit Speicherung, aber ohne permanente Sichtung, in der
-  abstrakten Normenkontrolle für verhältnismässig. → Im PDF als Fussnote vermerkt.
-- **§ 4 Abs. 4 (Maskierung/Beschränkung)** ist die Schutzklausel gegen die
-  abstrakte Normenkontrolle. NICHT entfernen.
+  Verwaltungsgerichts St. Gallen **B 2005/202 vom 9. Mai 2006**.
+- **§ 4 (Maskierung/Beschränkung aufs Notwendige)** ist die Schutzklausel gegen
+  die abstrakte Normenkontrolle.
 
 ---
 
-## OFFEN – muss noch erledigt werden
+## Erledigt
+
+- Hub + Kampagnen-Struktur, mobile-first Redesign
+- Echte Kontaktdaten, Socials (Instagram/TikTok @jonasstreule), EDV.sg als Producer
+- 120 echte Kantonsräte (ratsinfo.sg.ch) + PLZ→Wahlkreis-Finder
+- Echtes Backend (Postgres) für Petition, Spende, Kontakt, VIP, Finder-Lead,
+  Newsletter, Artikel-Feedback
+- Datenschutzerklärung
+- Listmonk-Newsletter (Double-Opt-in), Versand über `rundbrief@jonasstreule.ch`
+  (Migadu); Website-Anmeldung wird an Listmonk weitergereicht
+- IBAN/Bank/Empfänger + Twint-Deeplink eingetragen
+- Mitmach-Feature: §§ 1–9 mit Artikel-Feedback
+- SEO/Open-Graph-Tags + Favicon
+
+---
+
+## Noch offen
 
 1. **Staatsrechtliche Prüfung** des gesamten Texts vor der Unterschriftensammlung
-   (zwingend). Besonders: Genehmigungsfiktion auf öffentlichem Grund, Kapo-Zuständigkeit.
-2. **Verfassungs-Check (Kanton SG)** im Volltext – Kompetenzordnung Kanton/Gemeinde,
-   Grundrechtskatalog. (Webzugriff scheiterte an dynamischer Datenbank.)
-3. **Polizeigesetz sGS 451.1** im Volltext prüfen – Artikel zur privaten Videoüberwachung.
-4. **Platzhalter auf der Website ersetzen:**
-   - WhatsApp-Kanal-Link (Variable WA_LINK im Code, 1 Stelle)
-   - IBAN + Twint-Nummer
-   - Echte Parlamentarier-Daten (Kantonsrat SG)
-   - Echte Medienartikel, Komitee-Mitglieder, Testimonials
-5. **Datenschutzerklärung** als eigene Seite (Pflicht bei Spenden/Newsletter).
-6. **Zahlungsabwicklung** (z.B. RaiseNow) + Hosting + Domain.
-
----
-
-## Recherche-Notiz (für später)
-
-- Das geplante kantonale Videoüberwachungsgesetz (Vernehmlassung 2022) ist
-  offenbar NICHT als eigenständiges Gesetz in Kraft – Materie läuft über
-  Polizeigesetz-Nachträge (XV., XVI. Nachtrag).
-- Überwachung öffentlichen Raums ist in SG weiterhin Gemeindesache. Kein
-  kantonales Gesetz kommt dem Projekt zuvor – Feld ist offen.
-- Entscheidung: Wir machen ein eigenständiges Spezialgesetz (nicht Nachtrag).
+   (zwingend) – v. a. Genehmigungsfiktion auf öffentlichem Grund, Kapo-Zuständigkeit.
+2. **Gesetzes-PDF neu erzeugen:** enthält noch den Platzhalter „KANTON [X]" und im
+   Fußtext die alte Domain „hofladen-schutz.ch". Muss aus dem Quelldokument neu
+   generiert werden.
+3. **Offizieller Unterschriftenbogen:** kommt erst, wenn der Text final und vom
+   Amt anerkannt ist (die Online-Unterstützungsbekundung läuft bereits).
+4. **Twint-QR-Code:** aktuell Platzhalter „QR-Code folgt"; Deeplink funktioniert.
