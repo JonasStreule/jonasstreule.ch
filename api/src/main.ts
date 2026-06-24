@@ -6,6 +6,9 @@ import campaignRouter from './routes/campaign';
 
 const app = express();
 app.disable('x-powered-by');
+// Hinter Caddy (1 Proxy-Hop): echte Client-IP aus X-Forwarded-For nutzen,
+// damit das Rate-Limit pro Besucher statt global greift.
+app.set('trust proxy', 1);
 app.use(express.json({ limit: '50kb' }));
 
 app.get('/api/health', async (_req, res) => {
