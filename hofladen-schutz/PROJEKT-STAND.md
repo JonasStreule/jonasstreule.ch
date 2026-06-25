@@ -1,6 +1,6 @@
 # Betriebsschutzgesetz (BSchG) – Projektstand
 
-**Stand:** Juni 2026
+**Stand:** 25. Juni 2026
 **Form:** Eigenständiges kantonales Spezialgesetz (Kanton St. Gallen)
 **Live:** https://jonasstreule.ch/hofladen-schutz/
 
@@ -80,6 +80,25 @@ kommentierbar). Kernpunkte:
 - Gesetzes-PDF neu erzeugt: Entwurfs-/Arbeitsfassung mit Rückmelde-Hinweis
   (jonas.streule@gmail.com / 078 649 19 45), ohne Platzhalter „KANTON [X]",
   korrekte Domain jonasstreule.ch (per Chrome-Headless aus HTML-Vorlage gerendert)
+
+### Sitzung 25. Juni 2026
+
+- **§ 7** um Mittel-Klausel ergänzt (Abs. 3: Kanton stattet Kantonspolizei aus).
+- **§§ 1/3 bundesrechtlich gehärtet** (siehe Absicherungs-Block oben): § 1 Abs. 3
+  Sicherheits-/Art.-6-ZGB-Anker, § 3 Abs. 3 Höchstfrist, § 3 Abs. 4 Datensicherung +
+  automatische Löschung. PDF jeweils neu gerendert.
+- **Frontend/UX:** mobiles Hamburger-Menü; FAQ → „Oft gestellte Fragen" + neue Einwand-
+  Frage („Parlament regelt das doch schon?"); Kantonsräte als 6er-Vorschau mit „Alle
+  anzeigen"; §§ 1–9 im Mitmach-Bereich als Akkordeon; „Ansicht"-Leiste auf „Aa"-Launcher
+  eingeklappt; schwebende Buttons auf Desktop ausgeblendet.
+- **Anglizismen entfernt** (Jonas wünscht durchgängig Deutsch): Newsletter→Rundbrief,
+  Updates→Neuigkeiten, Online-→digital, VIP→prominente Stimme, Link→Adresse,
+  Button→Schaltfläche, optional→freiwillig.
+- **Interne Rechtsrecherche:** `recherche/Rechtslage-BSchG.md` (Geltendes Recht, Praxis,
+  Kompetenzordnung Bund/Kanton, Vollzugshürden, Risiko-Einschätzung). **Liegt bewusst
+  lokal** (per `.gitignore` ausgeschlossen, weil das Repo öffentlich ist).
+- **Live-Check** (echter Browser): keine Konsolenfehler, API gesund, alle neuen
+  Funktionen verifiziert.
 
 ---
 
