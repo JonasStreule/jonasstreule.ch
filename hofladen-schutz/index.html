@@ -71,14 +71,23 @@
   body.boomer h2 { color: #1f3a0f; }
 
   /* ── A+/A- WIDGET ──────────────────────────────────────────── */
-  .access-bar {
-    position: fixed; top: 64px; right: 0; z-index: 190;
-    background: var(--weiss); border: 1px solid #d0c9bc; border-top: none;
-    border-radius: 0 0 0 6px;
-    box-shadow: -2px 4px 16px rgba(0,0,0,0.12);
-    display: flex; align-items: center; gap: 0.4rem;
-    padding: 0.5rem 0.75rem;
+  .ab-toggle {
+    position: fixed; top: 76px; right: 14px; z-index: 191;
+    width: 42px; height: 42px; border-radius: 50%;
+    background: var(--weiss); border: 1.5px solid var(--gruen);
+    color: var(--gruen); font-weight: 800; font-size: 0.95rem; cursor: pointer;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.14);
+    display: flex; align-items: center; justify-content: center; transition: all 0.15s;
   }
+  .ab-toggle:hover { background: var(--gruen); color: var(--weiss); }
+  .access-bar {
+    position: fixed; top: 126px; right: 14px; z-index: 190;
+    background: var(--weiss); border: 1px solid #d0c9bc; border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+    display: none; align-items: center; gap: 0.4rem;
+    padding: 0.5rem 0.6rem;
+  }
+  .access-bar.open { display: flex; }
   .access-bar .ab-label { font-size: 0.72rem; font-weight: 700; color: var(--gruen); text-transform: uppercase; letter-spacing: 0.04em; margin-right: 0.2rem; }
   .ab-btn {
     width: 34px; height: 34px;
@@ -94,7 +103,8 @@
   .ab-btn.ab-contrast { font-size: 0.95rem; }
   .ab-btn.active { background: var(--gold); border-color: var(--gold); color: var(--gruen); }
   @media (max-width: 640px) {
-    .access-bar { top: auto; bottom: 5rem; right: 1rem; border-radius: 6px; border-top: 1px solid #d0c9bc; }
+    .ab-toggle { top: auto; bottom: 5rem; right: 1rem; }
+    .access-bar { top: auto; bottom: 8.5rem; right: 1rem; }
     .access-bar .ab-label { display: none; }
   }
 
@@ -256,7 +266,12 @@
   .artikel-kapitel { font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--gruen); margin:2rem 0 0.75rem; }
   .artikel-kapitel:first-child { margin-top:0; }
   .artikel-card { background:var(--weiss); border:1px solid #e8e2d6; border-radius:4px; padding:1.5rem 1.5rem 1.25rem; margin-bottom:1rem; }
-  .artikel-head { display:flex; align-items:baseline; gap:0.6rem; flex-wrap:wrap; margin-bottom:0.75rem; }
+  .artikel-head { display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap; margin-bottom:0; cursor:pointer; }
+  .artikel-head:hover .artikel-titel { color:var(--gruen-hell); }
+  .artikel-arrow { margin-left:auto; color:var(--gold); font-size:0.85rem; transition:transform 0.2s; flex-shrink:0; }
+  .artikel-card.open .artikel-arrow { transform:rotate(180deg); }
+  .artikel-collapse { display:none; padding-top:0.85rem; }
+  .artikel-card.open .artikel-collapse { display:block; }
   .artikel-num { font-family:'Playfair Display',serif; font-weight:900; color:var(--gold); font-size:1.05rem; flex-shrink:0; }
   .artikel-titel { font-size:1.02rem; font-weight:600; color:var(--gruen); }
   .artikel-body p { font-size:0.88rem; color:var(--text-soft); line-height:1.65; margin-bottom:0.6rem; }
@@ -534,7 +549,8 @@
 <body>
 
 <!-- ACCESSIBILITY BAR -->
-<div class="access-bar">
+<button class="ab-toggle" onclick="toggleAccessBar()" aria-label="Ansicht: Schrift & Kontrast" title="Schrift & Kontrast">Aa</button>
+<div class="access-bar" id="accessBar">
   <span class="ab-label">Ansicht</span>
   <button class="ab-btn ab-small" onclick="changeFont(-1)" title="Schrift verkleinern">A−</button>
   <button class="ab-btn ab-large" onclick="changeFont(1)" title="Schrift vergrössern">A+</button>
@@ -1140,14 +1156,20 @@ const gesetzArtikel = [
 ];
 
 function renderArtikel() {
-  document.getElementById('artikelList').innerHTML = gesetzArtikel.map(a => `
+  document.getElementById('artikelList').innerHTML = gesetzArtikel.map((a,i) => `
     ${a.kapitel ? `<div class="artikel-kapitel">${a.kapitel}</div>` : ''}
-    <div class="artikel-card">
-      <div class="artikel-head"><span class="artikel-num">${a.num}</span><span class="artikel-titel">${a.titel}</span></div>
-      <div class="artikel-body">${a.html}</div>
-      <button class="artikel-feedback-btn" onclick="openArtikelFeedback('${a.num} ${a.titel.replace(/'/g,"\\'")}')">✍ Frage / Änderungsvorschlag</button>
+    <div class="artikel-card" id="art-${i}">
+      <div class="artikel-head" onclick="toggleArtikel(${i})">
+        <span class="artikel-num">${a.num}</span><span class="artikel-titel">${a.titel}</span>
+        <span class="artikel-arrow">▾</span>
+      </div>
+      <div class="artikel-collapse">
+        <div class="artikel-body">${a.html}</div>
+        <button class="artikel-feedback-btn" onclick="openArtikelFeedback('${a.num} ${a.titel.replace(/'/g,"\\'")}')">✍ Frage / Änderungsvorschlag</button>
+      </div>
     </div>`).join('');
 }
+function toggleArtikel(i) { document.getElementById('art-'+i).classList.toggle('open'); }
 
 let currentArtikelForFeedback = '';
 function openArtikelFeedback(label) {
@@ -1472,6 +1494,7 @@ function closeMenu() {
   b.textContent = '☰';
   b.setAttribute('aria-expanded', 'false');
 }
+function toggleAccessBar() { document.getElementById('accessBar').classList.toggle('open'); }
 
 // ── KONTO TABS ─────────────────────────────────────────────────
 function switchTab(id, btn) {
