@@ -69,6 +69,10 @@ kommentierbar). Kernpunkte:
 - IBAN/Bank/Empfänger + Twint-Deeplink eingetragen
 - Mitmach-Feature: §§ 1–9 mit Artikel-Feedback
 - SEO/Open-Graph-Tags + Favicon
+- Twint-QR-Code eingebaut (echter Code aus Screenshot freigestellt → `twint-qr.png`)
+- Gesetzes-PDF neu erzeugt: Entwurfs-/Arbeitsfassung mit Rückmelde-Hinweis
+  (jonas.streule@gmail.com / 078 649 19 45), ohne Platzhalter „KANTON [X]",
+  korrekte Domain jonasstreule.ch (per Chrome-Headless aus HTML-Vorlage gerendert)
 
 ---
 
@@ -76,9 +80,9 @@ kommentierbar). Kernpunkte:
 
 1. **Staatsrechtliche Prüfung** des gesamten Texts vor der Unterschriftensammlung
    (zwingend) – v. a. Genehmigungsfiktion auf öffentlichem Grund, Kapo-Zuständigkeit.
-2. **Gesetzes-PDF neu erzeugen:** enthält noch den Platzhalter „KANTON [X]" und im
-   Fußtext die alte Domain „hofladen-schutz.ch". Muss aus dem Quelldokument neu
-   generiert werden.
-3. **Offizieller Unterschriftenbogen:** kommt erst, wenn der Text final und vom
+2. **Offizieller Unterschriftenbogen:** kommt erst, wenn der Text final und vom
    Amt anerkannt ist (die Online-Unterstützungsbekundung läuft bereits).
-4. **Twint-QR-Code:** aktuell Platzhalter „QR-Code folgt"; Deeplink funktioniert.
+
+Das Gesetzes-PDF ist als **Entwurfsfassung** online; bei Textänderungen muss es neu
+gerendert werden (Quelle: §§ 1–9 im JS-Array `gesetzArtikel` in
+`hofladen-schutz/index.html`, per Chrome-Headless aus einer HTML-Vorlage).

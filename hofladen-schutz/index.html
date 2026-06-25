@@ -399,8 +399,8 @@
   .copy-btn { background:var(--gruen); color:var(--weiss); border:none; padding:0.3rem 0.75rem; border-radius:2px; font-size:0.75rem; font-weight:700; cursor:pointer; font-family:'Inter',sans-serif; }
   .copy-btn:hover { background:var(--gruen-hell); }
   .twint-box { text-align:center; padding:1.5rem 0; }
-  .twint-qr { width:160px; height:160px; background:#f0ebe1; border:2px dashed #c0b89c; border-radius:8px; display:flex; align-items:center; justify-content:center; margin:0 auto 1rem; font-size:0.8rem; color:#999; flex-direction:column; gap:0.5rem; }
-  .twint-qr svg { width:40px; height:40px; opacity:0.3; }
+  .twint-qr { width:200px; height:200px; background:#fff; border-radius:8px; margin:0 auto 1rem; overflow:hidden; }
+  .twint-qr img { width:100%; height:100%; display:block; }
   .twint-nr { font-size:1.5rem; font-weight:900; color:var(--gruen); font-family:'Playfair Display',serif; margin-bottom:0.25rem; }
   .twint-sub { font-size:0.82rem; color:var(--text-soft); }
 
@@ -795,8 +795,7 @@
           <div class="konto-panel" id="panel-twint">
             <div class="twint-box">
               <div class="twint-qr">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h2v2h-2zM16 16h2v2h-2zM14 18h2v2h-2z"/></svg>
-                QR-Code folgt
+                <img src="twint-qr.png" alt="Twint-QR-Code für Spenden an Jonas Streule" width="200" height="200">
               </div>
               <a href="https://go.twint.ch/1/e/tw?tw=acq.xKtMCbnlRdWsVekO9yfujf8clUUYnQVx8AGqSjnuMmN-fqTW6zNmjBlGP7ojLShq." class="wa-join-btn" target="_blank" style="display:inline-block;margin:0 auto 0.75rem;">💸 Jetzt mit Twint spenden</a>
               <div class="twint-sub">Sicher und direkt per Twint bezahlen</div>

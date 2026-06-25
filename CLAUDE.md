@@ -70,9 +70,12 @@ Nutzer es will.** Nach dem Push den Action-Lauf abwarten und live verifizieren.
 
 ## Offene Punkte (Stand Juni 2026)
 
-1. Gesetzes-PDF neu erzeugen – enthält noch Platzhalter „KANTON [X]" und alte
-   Domain „hofladen-schutz.ch" im Fußtext.
+1. Staatsrechtliche Prüfung des Gesetzestexts vor der Unterschriftensammlung.
 2. Offizieller Unterschriftenbogen kommt erst, wenn der Text final/amtlich ist
    (Online-Unterstützungsbekundung läuft schon).
-3. Twint-QR-Code ist Platzhalter (Deeplink funktioniert).
-4. Staatsrechtliche Prüfung des Gesetzestexts vor der Unterschriftensammlung.
+
+Gesetzes-PDF (`hofladen-schutz/Betriebsschutzgesetz_BSchG.pdf`) ist als
+**Entwurfsfassung** online (Rückmelde-Hinweis auf E-Mail/Handy). Bei Textänderungen
+neu rendern: Quelle ist das JS-Array `gesetzArtikel` in `hofladen-schutz/index.html`,
+per Chrome-Headless aus HTML-Vorlage. Twint-QR-Code ist eingebaut
+(`hofladen-schutz/twint-qr.png`).
