@@ -43,7 +43,8 @@ kommentierbar). Kernpunkte:
 - **§ 5 Zweckbindung:** nur Strafverfolgung/Sicherheit, KEINE permanente
   Visionierung (nur Sichtung im Anlassfall), keine Weitergabe, keine Gesichtserkennung
 - **§ 6 Kennzeichnung:** ein Hinweis am Zugang genügt
-- **§ 7 Zuständigkeit:** Kantonspolizei
+- **§ 7 Zuständigkeit und Mittel:** Kantonspolizei; Abs. 3 verpflichtet den Kanton, die Kapo
+  für die neue Aufgabe personell/finanziell/technisch ausreichend auszustatten
 - **§ 8 Bundesrecht:** Vorbehalt, betriebsfreundliche Auslegung
 - **§ 9 Aufsicht/Widerruf**
 
