@@ -116,10 +116,17 @@
   .nav-wa span { display:none; }
   .nav-cta { background:var(--gold); color:var(--gruen) !important; padding:0.4rem 0.85rem; border-radius:2px; font-weight:600 !important; text-decoration:none; font-size:0.78rem; white-space:nowrap; }
   .nav-cta:hover { background:var(--gold-hell); }
+  .nav-burger { display:flex; align-items:center; justify-content:center; background:transparent; border:none; color:#fff; font-size:1.5rem; line-height:1; cursor:pointer; padding:0.1rem 0.35rem; }
+  .mobile-menu { display:none; position:fixed; top:56px; left:0; right:0; z-index:99; background:rgba(45,80,22,0.98); backdrop-filter:blur(8px); flex-direction:column; padding:0.5rem 1.25rem 1.25rem; box-shadow:0 10px 24px rgba(0,0,0,0.28); }
+  .mobile-menu.open { display:flex; }
+  .mobile-menu a { color:rgba(255,255,255,0.92); text-decoration:none; padding:0.85rem 0.25rem; border-bottom:1px solid rgba(255,255,255,0.12); font-size:0.98rem; letter-spacing:0.02em; }
+  .mobile-menu a:last-child { border-bottom:none; }
   @media (min-width:768px) {
     nav { padding: 0 2rem; height: 64px; }
     .nav-logo { font-size:1.1rem; }
     .nav-links-text { display:flex; }
+    .nav-burger { display:none; }
+    .mobile-menu { display:none !important; }
     .nav-wa { padding:0.4rem 1rem; font-size:0.82rem; }
     .nav-wa span { display:inline; }
     .nav-cta { padding:0.45rem 1.2rem; font-size:0.82rem; }
@@ -559,8 +566,20 @@
       <span>Kanal</span>
     </a>
     <a href="#spenden" class="nav-cta">Spenden</a>
+    <button class="nav-burger" onclick="toggleMenu()" aria-label="Menü" aria-expanded="false" id="navBurger">☰</button>
   </div>
 </nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#gesetz" onclick="closeMenu()">Das Gesetz</a>
+  <a href="#mitmachen" onclick="closeMenu()">Mitmachen</a>
+  <a href="#finder" onclick="closeMenu()">Kantonsräte finden</a>
+  <a href="#parlamentarier" onclick="closeMenu()">Kantonsrat</a>
+  <a href="#stimmen" onclick="closeMenu()">Stimmen</a>
+  <a href="#faq" onclick="closeMenu()">Oft gestellte Fragen</a>
+  <a href="#spenden" onclick="closeMenu()">Spenden</a>
+  <a href="#petition" onclick="closeMenu()">Jetzt unterzeichnen</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -573,7 +592,7 @@
       <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       <div>
         <p>Offizieller WhatsApp-Kanal</p>
-        <strong>Bleiben Sie auf dem Laufenden – Updates direkt aufs Handy</strong>
+        <strong>Bleiben Sie auf dem Laufenden – Neuigkeiten direkt aufs Handy</strong>
       </div>
       <a href="https://chat.whatsapp.com/Cqfym5OFq4rKeFYXgCFbpH" target="_blank" id="waHeroCta">Jetzt folgen →</a>
     </div>
@@ -604,7 +623,7 @@
 <div class="stats-bar">
   <div class="stat-item"><div class="stat-num" id="counterUnterschriften">0</div><div class="stat-label">Unterschriften</div></div>
   <div class="stat-item"><div class="stat-num" id="counterSpenden">0</div><div class="stat-label">CHF gesammelt</div></div>
-  <div class="stat-item"><div class="stat-num" id="counterVip">0</div><div class="stat-label">VIP Unterstützer</div></div>
+  <div class="stat-item"><div class="stat-num" id="counterVip">0</div><div class="stat-label">Prominente Stimmen</div></div>
   <div class="stat-item"><div class="stat-num" id="counterParl">0</div><div class="stat-label">Kantonsräte Ja</div></div>
 </div>
 
@@ -688,6 +707,7 @@
       </select>
     </div>
     <div class="parl-grid" id="parlGrid"></div>
+    <div id="parlMore" style="text-align:center;margin-top:1.5rem;display:none;"></div>
     <div id="parlEmpty" style="display:none;background:var(--weiss);border:1px dashed #d0c9bc;border-radius:4px;padding:2rem;text-align:center;">
       <p style="color:var(--text-soft);font-size:0.92rem;">Die Liste aller St. Galler Kantonsrätinnen und Kantonsräte mit Kontaktangaben wird derzeit aus dem offiziellen Ratsinformationssystem zusammengestellt und in Kürze hier veröffentlicht.</p>
     </div>
@@ -704,7 +724,7 @@
     <p id="vipEmpty" style="display:none;color:rgba(255,255,255,0.55);font-size:0.92rem;margin-bottom:1.5rem;">Noch keine prominenten Unterstützer eingetragen – werden Sie die/der Erste.</p>
     <div class="vip-cta">
       <p>Sie sind eine <strong>Persönlichkeit des öffentlichen Lebens</strong> und möchten das Gesetz offiziell unterstützen?</p>
-      <button class="btn-primary" onclick="openModal('vip-modal')">VIP-Unterstützer werden</button>
+      <button class="btn-primary" onclick="openModal('vip-modal')">Als prominente Stimme unterstützen</button>
     </div>
   </div>
 </section>
@@ -726,7 +746,7 @@
 <!-- PETITION -->
 <section id="petition">
   <div class="section-inner">
-    <div class="section-eyebrow light">Online-Petition</div>
+    <div class="section-eyebrow light">Digitale Petition</div>
     <h2 class="light">Zeigen Sie Ihre Unterstützung</h2>
     <div class="petition-layout">
       <div class="petition-count">
@@ -748,7 +768,7 @@
           <label for="petitionPublic">Ich bin einverstanden, dass mein Name und Wohnort öffentlich auf der Liste erscheinen.</label>
         </div>
         <button class="petition-submit" onclick="signPetition()">✍ Jetzt unterzeichnen</button>
-        <p style="font-size:0.78rem;color:rgba(255,255,255,0.45);margin-top:1rem;text-align:center;">Dies ist eine Online-Unterstützungsbekundung. Der offizielle, vom Amt anerkannte Unterschriftenbogen für die Volksinitiative folgt, sobald der Gesetzestext final steht.</p>
+        <p style="font-size:0.78rem;color:rgba(255,255,255,0.45);margin-top:1rem;text-align:center;">Dies ist eine digitale Unterstützungsbekundung. Der offizielle, vom Amt anerkannte Unterschriftenbogen für die Volksinitiative folgt, sobald der Gesetzestext final steht.</p>
       </div>
     </div>
   </div>
@@ -806,7 +826,7 @@
       </div>
 
       <div class="spenden-form">
-        <h3>Online-Spende erfassen</h3>
+        <h3>Spende erfassen</h3>
         <div class="betrag-grid">
           <button class="betrag-btn" onclick="selectBetrag(20,this)">CHF 20</button>
           <button class="betrag-btn active" onclick="selectBetrag(50,this)">CHF 50</button>
@@ -849,7 +869,7 @@
     <div class="wa-big-icon">📱</div>
     <div class="section-eyebrow light" style="justify-content:center">Offizieller Kanal</div>
     <h2 class="light" style="text-align:center">WhatsApp-Kanal folgen</h2>
-    <p class="section-lead light" style="text-align:center;margin:0 auto 0">Erhalten Sie Updates direkt auf Ihr Handy – sobald etwas passiert im Gesetzgebungsverfahren.</p>
+    <p class="section-lead light" style="text-align:center;margin:0 auto 0">Erhalten Sie Neuigkeiten direkt auf Ihr Handy – sobald etwas passiert im Gesetzgebungsverfahren.</p>
     <div class="wa-features">
       <div class="wa-feature">
         <div class="wa-feature-icon">🔔</div>
@@ -858,7 +878,7 @@
       </div>
       <div class="wa-feature">
         <div class="wa-feature-icon">📋</div>
-        <h4>Exklusive Updates</h4>
+        <h4>Exklusive Einblicke</h4>
         <p>Hintergrundinfos, die sonst nirgends stehen. Direkt vom Initiativkomitee.</p>
       </div>
       <div class="wa-feature">
@@ -892,7 +912,7 @@
       </a>
       <button class="teilen-btn teilen-copy" onclick="copyLink()">
         <svg viewBox="0 0 24 24" fill="white"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
-        Link kopieren
+        Adresse kopieren
       </button>
       <a class="teilen-btn teilen-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fjonasstreule.ch%2Fhofladen-schutz%2F" target="_blank">
         <svg viewBox="0 0 24 24" fill="white"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -941,7 +961,7 @@
 <section id="newsletter" style="background:#f5f0e8;">
   <div class="section-inner" style="max-width:680px;text-align:center;">
     <div class="section-eyebrow" style="justify-content:center;">Auf dem Laufenden bleiben</div>
-    <h2>Newsletter abonnieren</h2>
+    <h2>Rundbrief abonnieren</h2>
     <p class="section-lead" style="margin:0 auto 2rem;">Kein WhatsApp? Kein Problem. Erhalten Sie wichtige Neuigkeiten zum Gesetz ganz klassisch per E-Mail – etwa einmal im Monat.</p>
     <div class="news-form">
       <input type="email" id="newsEmail" placeholder="Ihre E-Mail-Adresse">
@@ -996,12 +1016,12 @@
 <div class="modal-overlay" id="vip-modal">
   <div class="modal">
     <button class="modal-close" onclick="closeModal('vip-modal')">✕</button>
-    <h3>Als VIP-Unterstützer registrieren</h3>
+    <h3>Als prominente Stimme eintragen</h3>
     <p>Lassen Sie sich als prominente/r Unterstützer/in des Hofladen-Schutzgesetzes eintragen.</p>
     <input type="text" id="vip-name" placeholder="Vor- und Nachname">
     <input type="text" id="vip-funktion" placeholder="Funktion / Titel">
     <input type="text" id="vip-org" placeholder="Organisation / Unternehmen">
-    <textarea id="vip-zitat" placeholder="Ihr Zitat zur Initiative (optional, max. 150 Zeichen)" maxlength="150"></textarea>
+    <textarea id="vip-zitat" placeholder="Ihr Zitat zur Initiative (freiwillig, max. 150 Zeichen)" maxlength="150"></textarea>
     <button class="modal-submit" onclick="registerVip()">Jetzt registrieren</button>
   </div>
 </div>
@@ -1179,7 +1199,7 @@ const faqs = [
   { q:"Braucht es das überhaupt – kümmert sich das Parlament nicht schon darum?", a:"Das ist ein verbreitetes Missverständnis. Was im Kantonsparlament läuft, betrifft die <strong>staatliche</strong> Überwachung – also was Polizei und Behörden im öffentlichen Raum dürfen, etwa die umstrittene automatische Fahrzeugfahndung. Für <strong>private</strong> Hofläden, Gewerbe und Kulturstätten ist dort nichts vorgesehen. Ein eigenes kantonales Videoüberwachungsgesetz war zwar 2022 in der Vernehmlassung, wurde aber nie als solches erlassen – es ging in der Revision des Polizeigesetzes auf. Deren heikelste Teile – vorausschauende Polizeimethoden und die automatische Fahrzeugfahndung – wurden vom Kantonsrat 2023 zurückgewiesen und sind bis heute umstritten und teils noch hängig. Kein einziger dieser Vorstösse gibt einem Hofladen das Recht, seinen Eingang oder den angrenzenden Parkplatz rechtssicher zu schützen. Der Kanton regelt also seine eigene Überwachung und lässt die kleinen Betriebe und Kulturgüter schutzlos. Genau diese Lücke schliesst das Betriebsschutzgesetz – bürgernah, gratis, ohne Massenüberwachung und mit ausdrücklichem Verbot von Gesichtserkennung." },
   { q:"Wie lange dürfen Aufzeichnungen gespeichert werden?", a:"Höchstens 30 Tage – und nur so lange, wie es der Schutz tatsächlich erfordert; danach werden die Aufzeichnungen automatisch gelöscht. Sie müssen gegen unbefugten Zugriff gesichert werden. Bei laufenden Strafverfahren dürfen sie bis zu deren Abschluss aufbewahrt werden. Gesichtserkennung und biometrische Auswertung bleiben in jedem Fall verboten." },
   { q:"Für was wird meine Spende verwendet?", a:"Ausschliesslich für das Inkrafttreten des Hofladen-Schutzgesetzes: rechtliche Beratung, politische Arbeit, Kommunikation, Werbung, Druckkosten, Veranstaltungen und Dienstleistungen Dritter. Und natürlich – wenn es klappt – für das Fest!" },
-  { q:"Wie kann ich die Initiative teilen?", a:"Am einfachsten per WhatsApp – nutzen Sie die Teilen-Buttons weiter unten auf der Seite. Oder folgen Sie unserem offiziellen WhatsApp-Kanal für Updates und einfaches Weiterleiten." },
+  { q:"Wie kann ich die Initiative teilen?", a:"Am einfachsten per WhatsApp – nutzen Sie die Teilen-Schaltflächen weiter unten auf der Seite. Oder folgen Sie unserem offiziellen WhatsApp-Kanal für Neuigkeiten und einfaches Weiterleiten." },
   { q:"Was passiert nach der Unterschriftenphase?", a:"Die gesammelten Unterschriften und Unterstützungsbekundungen werden dem Kantonsrat übergeben. Parallel läuft die Vernehmlassung. Je mehr Unterstützung wir zeigen können, desto grösser der politische Druck für eine schnelle Umsetzung." },
 ];
 
@@ -1247,12 +1267,31 @@ function parlCardHtml(p) {
     </div>`;
 }
 
+let parlShowAll = false;
+const PARL_PREVIEW = 6;
 function renderParl(statusFilter, wkFilter) {
   wkFilter = wkFilter || currentWahlkreisFilter;
   const grid = document.getElementById('parlGrid');
   const filtered = getFilteredParl(statusFilter, wkFilter);
   document.getElementById('parlEmpty').style.display = filtered.length ? 'none' : 'block';
-  grid.innerHTML = filtered.map(p => parlCardHtml(p)).join('');
+  const shown = parlShowAll ? filtered : filtered.slice(0, PARL_PREVIEW);
+  grid.innerHTML = shown.map(p => parlCardHtml(p)).join('');
+  const more = document.getElementById('parlMore');
+  if (filtered.length > PARL_PREVIEW) {
+    more.style.display = 'block';
+    const btnStyle = 'background:none;border:1px solid var(--gruen);color:var(--gruen);padding:0.6rem 1.4rem;border-radius:2px;font-weight:600;font-size:0.9rem;cursor:pointer;';
+    more.innerHTML = parlShowAll
+      ? `<button style="${btnStyle}" onclick="toggleParlAll()">Weniger anzeigen ↑</button>`
+      : `<button style="${btnStyle}" onclick="toggleParlAll()">Alle ${filtered.length} Kantonsräte anzeigen ↓</button>`;
+  } else {
+    more.style.display = 'none';
+    more.innerHTML = '';
+  }
+}
+function toggleParlAll() {
+  parlShowAll = !parlShowAll;
+  renderParl(currentFilter, currentWahlkreisFilter);
+  if (!parlShowAll) document.getElementById('parlamentarier').scrollIntoView({ behavior:'smooth', block:'start' });
 }
 
 function filterParl(f, btn) {
@@ -1307,13 +1346,13 @@ function findMyKantonsraete() {
     <div class="parl-grid">${treffer.map(p => parlCardHtml(p)).join('')}</div>
   </div>
   <div class="finder-consent-box">
-    <p>📲 Möchten Sie künftig Updates zur Initiative erhalten (z.B. per SMS/WhatsApp)? Hinterlassen Sie optional Ihre Telefonnummer.</p>
-    <input class="petition-input" style="border:1px solid #d0c9bc;color:var(--text);" type="tel" id="finderTel" placeholder="Telefonnummer (optional)">
+    <p>📲 Möchten Sie künftig Neuigkeiten zur Initiative erhalten (z.B. per SMS/WhatsApp)? Hinterlassen Sie freiwillig Ihre Telefonnummer.</p>
+    <input class="petition-input" style="border:1px solid #d0c9bc;color:var(--text);" type="tel" id="finderTel" placeholder="Telefonnummer (freiwillig)">
     <div class="petition-checkbox" style="margin-top:0.5rem;">
       <input type="checkbox" id="finderConsent">
-      <label for="finderConsent" style="color:var(--text-soft);">Ich bin einverstanden, dass meine Telefonnummer für Updates zur Initiative genutzt wird.</label>
+      <label for="finderConsent" style="color:var(--text-soft);">Ich bin einverstanden, dass meine Telefonnummer für Neuigkeiten zur Initiative genutzt wird.</label>
     </div>
-    <button class="btn-outline" style="border-color:var(--gruen);color:var(--gruen);margin-top:0.5rem;" onclick="submitFinderConsent('${plz}')">Updates anfordern</button>
+    <button class="btn-outline" style="border-color:var(--gruen);color:var(--gruen);margin-top:0.5rem;" onclick="submitFinderConsent('${plz}')">Neuigkeiten anfordern</button>
   </div>`;
   results.innerHTML = html;
 }
@@ -1329,7 +1368,7 @@ async function submitFinderConsent(plz) {
       body: JSON.stringify({ plz, telefon, consent }),
     });
     if (!res.ok) throw new Error('request failed');
-    showToast('📲 Danke! Wir melden uns mit Updates zur Initiative.');
+    showToast('📲 Danke! Wir melden uns mit Neuigkeiten zur Initiative.');
   } catch (e) {
     showToast('❌ Konnte nicht übermittelt werden. Bitte später erneut versuchen.');
   }
@@ -1417,6 +1456,21 @@ function renderFaq() {
 }
 function toggleFaq(i) { document.getElementById('faq-'+i).classList.toggle('open'); }
 
+// ── MOBILE MENU ────────────────────────────────────────────────
+function toggleMenu() {
+  const m = document.getElementById('mobileMenu');
+  const open = m.classList.toggle('open');
+  const b = document.getElementById('navBurger');
+  b.textContent = open ? '✕' : '☰';
+  b.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+function closeMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+  const b = document.getElementById('navBurger');
+  b.textContent = '☰';
+  b.setAttribute('aria-expanded', 'false');
+}
+
 // ── KONTO TABS ─────────────────────────────────────────────────
 function switchTab(id, btn) {
   document.querySelectorAll('.konto-tab').forEach(t => t.classList.remove('active'));
@@ -1430,7 +1484,7 @@ function copyIban() {
 
 // ── TEILEN ─────────────────────────────────────────────────────
 function copyLink() {
-  navigator.clipboard.writeText('https://jonasstreule.ch/hofladen-schutz/').then(() => showToast('🔗 Link kopiert! Jetzt teilen.'));
+  navigator.clipboard.writeText('https://jonasstreule.ch/hofladen-schutz/').then(() => showToast('🔗 Adresse kopiert! Jetzt teilen.'));
 }
 
 // ── SPENDEN ────────────────────────────────────────────────────
@@ -1518,7 +1572,7 @@ async function registerVip() {
       body: JSON.stringify({ name, funktion: fn, organisation: organisation || undefined, zitat: zitat || undefined }),
     });
     if (!res.ok) throw new Error('request failed');
-    showToast(`⭐ ${name} als VIP eingetragen. Wir melden uns!`);
+    showToast(`⭐ ${name} als prominente Stimme eingetragen. Wir melden uns!`);
     closeModal('vip-modal');
   } catch (e) {
     showToast('❌ Anmeldung fehlgeschlagen. Bitte später erneut versuchen.');
@@ -1588,7 +1642,7 @@ async function subscribeNews() {
       body: JSON.stringify({ email }),
     });
     if (!res.ok) throw new Error('request failed');
-    showToast('📬 Vielen Dank! Sie sind für den Newsletter angemeldet.');
+    showToast('📬 Vielen Dank! Sie sind für den Rundbrief angemeldet.');
     document.getElementById('newsEmail').value = '';
   } catch (e) {
     showToast('❌ Anmeldung fehlgeschlagen. Bitte später erneut versuchen.');
