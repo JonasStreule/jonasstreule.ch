@@ -36,7 +36,8 @@ kommentierbar). Kernpunkte:
   Gewerbe (eigenes Gelände), Andachtsräume sowie sakrale Klein- und Flurdenkmäler
   (Wegkreuze, Bildstöcke, Feldkapellen) mit Denkmal-/Kulturwert
 - **§ 3 Stufe 1 (eigenes Gelände):** bewilligungsfrei, gratis, 24/7,
-  Selbstdeklaration bei der Kantonspolizei, 30 Tage Speicherung
+  Selbstdeklaration bei der Kantonspolizei, Speicherung höchstens 30 Tage
+  (verhältnismässige Höchstfrist), gesichert + automatische Löschung (§ 3 Abs. 3/4)
 - **§ 4 Stufe 2 (öffentliche Flächen):** Kapo-Bewilligung, gratis, mit
   Genehmigungsfiktion (gilt als erteilt, wenn Kapo nicht innert 30 Tagen
   widerspricht); Beschränkung aufs Notwendige + Maskierung
@@ -54,6 +55,11 @@ kommentierbar). Kernpunkte:
   Verwaltungsgerichts St. Gallen **B 2005/202 vom 9. Mai 2006**.
 - **§ 4 (Maskierung/Beschränkung aufs Notwendige)** ist die Schutzklausel gegen
   die abstrakte Normenkontrolle.
+- **§ 1 Abs. 3** verankert das Gesetz als kantonale Sicherheitsmassnahme im öffentlichen
+  Interesse + DSG-Harmonisierung (Art.-6-ZGB-Anker gegen Bundesrechts-Kollision).
+- **§ 3 Abs. 3/4** = 30 Tage als verhältnismässige Höchstfrist + Datensicherung/automatische
+  Löschung (stützt sich auf BGE 133 I 77: Verhältnismässigkeit hängt an Zugriffsschutz).
+  Hintergrund/Begründung dieser Härtungen: `recherche/Rechtslage-BSchG.md` (Teil F, lokal).
 
 ---
 
