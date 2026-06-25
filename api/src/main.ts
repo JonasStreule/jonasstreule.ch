@@ -4,6 +4,16 @@ import { pool, runMigrations } from './db';
 import { isValidCampaignSlug } from './validate';
 import campaignRouter from './routes/campaign';
 
+// Allowlist bekannter Kampagnen (kommagetrennt via CAMPAIGNS).
+// Verhindert, dass beliebige Slugs Müll-Kampagnen in die DB schreiben.
+// Fallback: hofladen-schutz, falls die Variable nicht gesetzt ist.
+const allowedCampaigns = new Set(
+  (process.env.CAMPAIGNS || 'hofladen-schutz')
+    .split(',')
+    .map(s => s.trim())
+    .filter(Boolean)
+);
+
 const app = express();
 app.disable('x-powered-by');
 // Hinter Caddy (1 Proxy-Hop): echte Client-IP aus X-Forwarded-For nutzen,
@@ -27,7 +37,8 @@ const writeLimiter = rateLimit({
   legacyHeaders: false,
 });
 app.use('/api/:campaign', (req, res, next) => {
-  if (!isValidCampaignSlug(req.params.campaign)) {
+  const { campaign } = req.params;
+  if (!isValidCampaignSlug(campaign) || !allowedCampaigns.has(campaign)) {
     return res.status(404).json({ error: 'unbekannte campaign' });
   }
   next();
