@@ -137,7 +137,7 @@
     .nav-links-text { display:flex; }
     .nav-burger { display:none; }
     .mobile-menu { display:none !important; }
-    .nav-wa { padding:0.4rem 1rem; font-size:0.82rem; }
+    .nav-wa { padding:0.5rem 1.15rem; font-size:0.88rem; }
     .nav-wa span { display:inline; }
     .nav-cta { padding:0.45rem 1.2rem; font-size:0.82rem; }
   }
@@ -364,6 +364,7 @@
   .petition-form p { color:rgba(255,255,255,0.6); font-size:0.87rem; margin-bottom:1.5rem; }
   .petition-input { width:100%; padding:0.75rem 1rem; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); border-radius:2px; color:var(--weiss); font-family:'Inter',sans-serif; font-size:0.9rem; margin-bottom:0.75rem; }
   .petition-input::placeholder { color:rgba(255,255,255,0.4); }
+  .field-label-light { display:block; font-size:0.78rem; font-weight:600; color:rgba(255,255,255,0.55); margin-bottom:0.35rem; letter-spacing:0.03em; text-transform:uppercase; }
   .petition-checkbox { display:flex; align-items:flex-start; gap:0.75rem; margin-bottom:1.25rem; }
   .petition-checkbox input { margin-top:0.15rem; flex-shrink:0; accent-color:var(--gold); }
   .petition-checkbox label { font-size:0.82rem; color:rgba(255,255,255,0.6); }
@@ -491,6 +492,7 @@
   .modal p { font-size:0.9rem; color:var(--text-soft); margin-bottom:1rem; }
   .modal input, .modal textarea, .modal select { width:100%; padding:0.75rem 1rem; border:1px solid #d0c9bc; border-radius:2px; font-size:0.9rem; font-family:'Inter',sans-serif; margin-bottom:0.75rem; color:var(--text); background:var(--creme); }
   .modal textarea { min-height:100px; resize:vertical; }
+  .modal label, .news-form label { display:block; font-size:0.78rem; font-weight:600; color:var(--text-soft); margin-bottom:0.35rem; letter-spacing:0.03em; text-transform:uppercase; }
   .modal-submit { background:var(--gruen); color:var(--weiss); border:none; padding:0.85rem 2rem; border-radius:2px; font-weight:600; font-size:0.9rem; cursor:pointer; width:100%; transition:background 0.2s; }
   .modal-submit:hover { background:var(--gruen-hell); }
 
@@ -503,9 +505,9 @@
   .wa-feature-icon { font-size:1.4rem; margin-bottom:0.5rem; }
   .wa-feature h4 { color:var(--weiss); font-size:0.9rem; font-weight:600; margin-bottom:0.25rem; }
   .wa-feature p { color:rgba(255,255,255,0.55); font-size:0.8rem; line-height:1.5; }
-  .wa-join-btn { display:inline-flex; align-items:center; gap:0.75rem; background:var(--wa-gruen); color:var(--weiss); padding:1.1rem 2.5rem; border-radius:2px; font-size:1rem; font-weight:700; text-decoration:none; transition:all 0.2s; }
-  .wa-join-btn svg { width:24px; height:24px; fill:white; }
-  .wa-join-btn:hover { background:#1fb356; transform:translateY(-1px); }
+  .wa-join-btn, .twint-pay-btn { display:inline-flex; align-items:center; gap:0.75rem; background:var(--wa-gruen); color:var(--weiss); padding:1.1rem 2.5rem; border-radius:2px; font-size:1rem; font-weight:700; text-decoration:none; transition:all 0.2s; }
+  .wa-join-btn svg, .twint-pay-btn svg { width:24px; height:24px; fill:white; }
+  .wa-join-btn:hover, .twint-pay-btn:hover { background:#1fb356; transform:translateY(-1px); }
   .wa-note { font-size:0.8rem; color:rgba(255,255,255,0.4); margin-top:1rem; }
 
   /* FOOTER */
@@ -579,8 +581,8 @@
     <li><a href="#petition">Unterschreiben</a></li>
   </ul>
   <div class="nav-actions">
-    <a href="#whatsapp" class="nav-wa">
-      <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <a href="#whatsapp" class="nav-wa" aria-label="WhatsApp-Kanal">
+      <svg viewBox="0 0 24 24" style="width:16px;height:16px;fill:white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       <span>Kanal</span>
     </a>
     <a href="#spenden" class="nav-cta">Spenden</a>
@@ -778,8 +780,11 @@
       <div class="petition-form">
         <h3>Jetzt unterzeichnen</h3>
         <p>Ihre Stimme zählt. Als Unterzeichner/in zeigen Sie den Politikerinnen und Politikern: Dieses Gesetz hat Rückhalt in der Bevölkerung.</p>
+        <label class="field-label-light" for="petitionName">Vor- und Nachname</label>
         <input class="petition-input" type="text" id="petitionName" placeholder="Vor- und Nachname">
+        <label class="field-label-light" for="petitionOrt">Wohnort / Gemeinde</label>
         <input class="petition-input" type="text" id="petitionOrt" placeholder="Wohnort / Gemeinde">
+        <label class="field-label-light" for="petitionEmail">E-Mail (nicht öffentlich)</label>
         <input class="petition-input" type="email" id="petitionEmail" placeholder="E-Mail (nicht öffentlich)">
         <div class="petition-checkbox">
           <input type="checkbox" id="petitionPublic" checked>
@@ -836,7 +841,7 @@
               <div class="twint-qr">
                 <img src="twint-qr.png" alt="Twint-QR-Code für Spenden an Jonas Streule" width="200" height="200">
               </div>
-              <a href="https://go.twint.ch/1/e/tw?tw=acq.xKtMCbnlRdWsVekO9yfujf8clUUYnQVx8AGqSjnuMmN-fqTW6zNmjBlGP7ojLShq." class="wa-join-btn" target="_blank" style="display:inline-block;margin:0 auto 0.75rem;">💸 Jetzt mit Twint spenden</a>
+              <a href="https://go.twint.ch/1/e/tw?tw=acq.xKtMCbnlRdWsVekO9yfujf8clUUYnQVx8AGqSjnuMmN-fqTW6zNmjBlGP7ojLShq." class="twint-pay-btn" target="_blank" style="display:inline-block;margin:0 auto 0.75rem;">💸 Jetzt mit Twint spenden</a>
               <div class="twint-sub">Sicher und direkt per Twint bezahlen</div>
             </div>
           </div>
@@ -854,19 +859,19 @@
           <button class="betrag-btn" onclick="selectBetrag('custom',this)">Anderer</button>
         </div>
         <div class="form-group" id="customBetragGroup" style="display:none">
-          <label>Ihr Betrag (CHF)</label>
+          <label for="customBetrag">Ihr Betrag (CHF)</label>
           <input type="number" id="customBetrag" placeholder="z.B. 150" min="5">
         </div>
         <div class="form-group">
-          <label>Vorname &amp; Name</label>
+          <label for="spendenName">Vorname &amp; Name</label>
           <input type="text" id="spendenName" placeholder="Anna Muster">
         </div>
         <div class="form-group">
-          <label>E-Mail</label>
+          <label for="spendenEmail">E-Mail</label>
           <input type="email" id="spendenEmail" placeholder="anna@example.ch">
         </div>
         <div class="form-group">
-          <label>Sichtbarkeit</label>
+          <label for="spendenVisibility">Sichtbarkeit</label>
           <select id="spendenVisibility">
             <option value="public">Öffentlich im Spender-Feed</option>
             <option value="anonym">Anonym (nur Betrag)</option>
@@ -982,6 +987,7 @@
     <h2>Rundbrief abonnieren</h2>
     <p class="section-lead" style="margin:0 auto 2rem;">Kein WhatsApp? Kein Problem. Erhalten Sie wichtige Neuigkeiten zum Gesetz ganz klassisch per E-Mail – etwa einmal im Monat.</p>
     <div class="news-form">
+      <label for="newsEmail" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">E-Mail-Adresse für den Rundbrief</label>
       <input type="email" id="newsEmail" placeholder="Ihre E-Mail-Adresse">
       <button onclick="subscribeNews()">Anmelden</button>
     </div>
@@ -1024,8 +1030,11 @@
     <button class="modal-close" onclick="closeModal('kontakt-modal')">✕</button>
     <h3 id="modal-parl-name">Parlamentarier kontaktieren</h3>
     <p id="modal-parl-info"></p>
+    <label for="kontakt-name">Ihr Name</label>
     <input type="text" placeholder="Ihr Name" id="kontakt-name">
+    <label for="kontakt-email">Ihre E-Mail</label>
     <input type="email" placeholder="Ihre E-Mail" id="kontakt-email">
+    <label for="kontakt-msg">Ihre Nachricht</label>
     <textarea id="kontakt-msg" style="min-height:140px"></textarea>
     <button class="modal-submit" onclick="sendKontakt()">Nachricht senden</button>
   </div>
@@ -1036,9 +1045,13 @@
     <button class="modal-close" onclick="closeModal('vip-modal')">✕</button>
     <h3>Als prominente Stimme eintragen</h3>
     <p>Lassen Sie sich als prominente/r Unterstützer/in des Hofladen-Schutzgesetzes eintragen.</p>
+    <label for="vip-name">Vor- und Nachname</label>
     <input type="text" id="vip-name" placeholder="Vor- und Nachname">
+    <label for="vip-funktion">Funktion / Titel</label>
     <input type="text" id="vip-funktion" placeholder="Funktion / Titel">
+    <label for="vip-org">Organisation / Unternehmen (freiwillig)</label>
     <input type="text" id="vip-org" placeholder="Organisation / Unternehmen">
+    <label for="vip-zitat">Ihr Zitat zur Initiative (freiwillig)</label>
     <textarea id="vip-zitat" placeholder="Ihr Zitat zur Initiative (freiwillig, max. 150 Zeichen)" maxlength="150"></textarea>
     <button class="modal-submit" onclick="registerVip()">Jetzt registrieren</button>
   </div>
@@ -1049,8 +1062,11 @@
     <button class="modal-close" onclick="closeModal('artikel-modal')">✕</button>
     <h3 id="artikel-modal-titel">Frage zu Artikel</h3>
     <p>Ihre Frage oder Ihr Änderungsvorschlag wird vom Initiativkomitee gesichtet. Bei einer Änderung an diesem Artikel informieren wir Sie auf Wunsch direkt.</p>
+    <label for="artikel-name">Ihr Name</label>
     <input type="text" id="artikel-name" placeholder="Ihr Name">
+    <label for="artikel-email">Ihre E-Mail</label>
     <input type="email" id="artikel-email" placeholder="Ihre E-Mail">
+    <label for="artikel-kommentar">Ihre Frage oder Ihr Änderungsvorschlag</label>
     <textarea id="artikel-kommentar" placeholder="Ihre Frage oder Ihr Änderungsvorschlag" style="min-height:120px"></textarea>
     <div class="petition-checkbox" style="margin-top:0.25rem;">
       <input type="checkbox" id="artikel-notify" checked style="accent-color:var(--gruen);">
@@ -1371,6 +1387,7 @@ function findMyKantonsraete() {
   </div>
   <div class="finder-consent-box">
     <p>📲 Möchten Sie künftig Neuigkeiten zur Initiative erhalten (z.B. per SMS/WhatsApp)? Hinterlassen Sie freiwillig Ihre Telefonnummer.</p>
+    <label for="finderTel" style="display:block;font-size:0.78rem;font-weight:600;color:var(--text-soft);margin-bottom:0.35rem;letter-spacing:0.03em;text-transform:uppercase;">Telefonnummer (freiwillig)</label>
     <input class="petition-input" style="border:1px solid #d0c9bc;color:var(--text);" type="tel" id="finderTel" placeholder="Telefonnummer (freiwillig)">
     <div class="petition-checkbox" style="margin-top:0.5rem;">
       <input type="checkbox" id="finderConsent">
@@ -1704,6 +1721,14 @@ ladeSpendenStatus();
 ladeVips();
 
 document.getElementById('progressFill').style.width = '8%';
+
+// ── HINWEIS AUF SCHRIFT-/KONTRAST-TOGGLE (einmalig) ─────────────
+if (!localStorage.getItem('bschg_aa_hint_gezeigt')) {
+  setTimeout(() => {
+    showToast('💡 Tipp: Mit "Aa" oben rechts Schrift vergrössern & Kontrast erhöhen');
+    localStorage.setItem('bschg_aa_hint_gezeigt', '1');
+  }, 4000);
+}
 </script>
 </body>
 </html>
